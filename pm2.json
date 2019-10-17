@@ -1,0 +1,14 @@
+{
+    "apps": [
+        {
+            "name": "finnexus.io",
+            "script": "./dist/server",
+            "max_memory_restart": "300M",
+            "out_file": "/data/logs/online/finnexus.io.log",
+            "error_file": "/data/logs/online/finnexus.io-error.log",
+            "env": {
+                "SERVER_PORT": "9000"
+            }
+        }
+    ]
+}

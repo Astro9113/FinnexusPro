@@ -1,0 +1,161 @@
+{
+    "title": "FinNexus Website",
+    "navs": {
+        "home": "Home",
+        "team": "Team",
+        "partners": "Partners",
+        "news": "News",
+        "whitePaper": "White Paper",
+        "whitePaperZh": "White Paper(CH)",
+        "whitePaperEn": "White Paper(EN)"
+    },
+    "pages": {
+        "home": {
+            "title": "Welcome to the official FinNexus website",
+            "keywords": "keywords",
+            "description": "description",
+            "subscribe": "Subscribe",
+            "subscribePlaceholder": "Please enter the email address",
+            "slogan": "Finance Evolved",
+            "banner": {
+                "title": "FinNexus-Finance Evolved",
+                "by": "Bridging decentralized and traditional Finance"
+            },
+            "why": {
+                "title": "Why <span>${name}</span>",
+                "description": "DeFi has come to represent the forefront of blockchain based finance. However, from the perspective of investors, there are a number of key issues the DeFi ecosystem is still not able to solve:",
+                "list": [
+                    {
+                        "title": "What to invest in?",
+                        "desc": "Lack of diverse investments",
+                        "clazz": "one"
+                    },
+                    {
+                        "title": "Why invest?",
+                        "desc": "Lack of investments with fundamental value",
+                        "clazz": "two"
+                    },
+                    {
+                        "title": "How to invest?",
+                        "desc": "Lack of convenient options for investment",
+                        "clazz": "three"
+                    }
+                ]
+            },
+            "target": {
+                "title": "<span>${name}</span>'s goal",
+                "content": [
+                    "Advancing blockchain based open finance through the",
+                    "establishment of a one stop shop protocol based on the three pillars",
+                    "of DeFi (diversity, value, and convenience)."
+                ]
+            },
+            "doSomething": "What does the <span>${name}</span> do",
+            "whats": {
+                "title": "What is <span>${name}</span>",
+                "content": [
+                    "FinNexus is an open finance hub making connections",
+                    "among assets, users, blockchains and service providers."
+                ]
+            },
+            "partner": "<span>${name}</span> Partners",
+            "team": "<span>${name}</span> Team",
+            "operationsTeam": {
+                "title": "Team Members",
+                "list": [
+                    {
+                        "avatar": "yangtao.png",
+                        "name": "Boris Yang",
+                        "job": "Founder & CEO",
+                        "desc": [
+                            "Boris graduated from UIBE，with double degrees in Finance and Law. He is former co-founder of Wanchain, and the main designer of Wanchain. He entered the blockchain industry and concentrated on product design and business operation. Before that, he has had many years of experience in internet startups."
+                        ]
+                    },
+                    {
+                        "avatar": "bobchen.png",
+                        "name": "Bob Chen",
+                        "job": "Co-founder & CTO",
+                        "desc": [
+                            "Bob graduated from Harbin Institute of Technology, and is an expert in Internet and blockchain technology. He worked for internet giants such as Alibaba and Qihoo 360. After entering the blockchain industry, he led a team to develop an asset management wallet. His expertise is in blockchain asset security management."
+                        ]
+                    },
+                    {
+                        "avatar": "maikliu.png",
+                        "name": "Maik Liu",
+                        "job": "Technical Specialist",
+                        "desc": [
+                            "Maik graduated from National Formosa University. He is a mobile product specialist and was honored with Cheetah Mobile’s Outstanding Contribution Award. He was former Senior Director of Cheetah Mobile, Co-founder of Bitrue exchange. He also has much experience in mobile apps and the crypto industry."
+                        ]
+                    },
+                    {
+                        "avatar": "railytian.png",
+                        "name": "Ryan Tian",
+                        "job": "Financial Specialist",
+                        "desc": [
+                            "Raily earned his master’s degree in financial engineering from York University. He has worked in the financial industry for more than 10 years. He worked in the investment bank and was responsible for sponsorship of listed companies. His expertise is in the securities products and he specializes in finance and risk control."
+                        ]
+                    },
+                    {
+                        "avatar": "jacktung.png",
+                        "name": "Jack Tung",
+                        "job": "Legal Expert",
+                        "desc": [
+                            "Jack graduated from Nanyang Technological University. He has more than 10 years of experience in asset management services for companies. He is a senior Fintech consultant, specializing in the framework design of asset management compliance, architecture design of financial enterprise compliance."
+                        ]
+                    }
+                ]
+            },
+            "investmentAgency": {
+                "title": "Founding Investors",
+                "description": [
+                    "The FinNexus project was initiated by two major founding investors,",
+                    "Wanchain and SuperAtom."
+                ],
+                "list": [
+                    {
+                        "pic": "wanchainlogo.png",
+                        "desc": [
+                            "Wanchain is one of the foremost projects in the blockchain industry. The project has made advances in the fields of privacy protection, cross-chain integrations, and proof of stake consensus mechanisms. Wanchain's technology will form the basis for the FinNexus platform, and the Wanchain team will provide comprehensive technical support for FinNexus."
+                        ]
+                    },
+                    {
+                        "pic": "superatomlogo.png",
+                        "desc": [
+                            "SuperAtom is a fintech company incubated by Cheetah Mobile (NYSE: CMCM) with various locally licensed fintech companies in the United States, Taiwan, Southeast Asia, and more. SuperAtom will play a key role in FinNexus’s early stages by working together to tokenize financial products which provide moderate and stable investment returns."
+                        ]
+                    }
+                ]
+            },
+            "mentor": {
+                "title": "Steering Committee",
+                "description": "FinNexus establishes its steering committee with members who are each specialists in their respective fields. From blockchain, mobile internet, finance, law, etc.",
+                "list": [
+                    {
+                        "avatar": "jacklu.png",
+                        "name": "Jack Lu",
+                        "job": "Founder of Wanchain",
+                        "desc": [
+                            "He is co-founder of Factom, and founder & CEO of Wanchain. In 2013, he entered the blockchain industry and led the projects Factom and Wanchain to achieve multiple technical innovations in areas such as privacy protection, cross-chain protocol, and new consensus mechanisms."
+                        ]
+                    },
+                    {
+                        "avatar": "scarletxiao.png",
+                        "name": "Scarlet Xiao",
+                        "job": "SVP of Cheetah Mobile",
+                        "desc": [
+                            "Board Member of Cheetah Mobile, Chairman of the Board of SuperAtom. She worked as a public relation director at Qihoo 360, and as a communication manager of Yahoo China. Since October 2010, she takes the position of VP of Cheetah Mobile and is responsible for business development, marketing."
+                        ]
+                    },
+                    {
+                        "avatar": "zhangyiqin.png",
+                        "name": "Eason Zhang",
+                        "job": "FP of River Capital",
+                        "desc": [
+                            "Founding partner of River Capital, Life-member of China Youth Angel Investor Leader Association. Has invested over 60 companies in industry of science and technology. Has served as the head of product department of Sohu, VP of China Mobile 12580, president of HNA Group Internet Business."
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

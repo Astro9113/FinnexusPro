@@ -1,0 +1,160 @@
+{
+    "title": "FinNexus Website",
+    "navs": {
+        "home": "首页",
+        "team": "团队",
+        "partners": "伙伴",
+        "news": "新闻",
+        "whitePaper": "白皮书",
+        "whitePaperZh": "白皮书 (中文)",
+        "whitePaperEn": "白皮书 (英文)"
+    },
+    "pages": {
+        "home": {
+            "title": "欢迎访问FinNexus官方网站",
+            "keywords": "关键词",
+            "description": "--",
+            "subscribe": "立即订阅",
+            "subscribePlaceholder": "请输入电子邮箱",
+            "slogan": "Finance Evolved",
+            "banner": {
+                "title": "FinNexus-Finance Evolved",
+                "by": "Bridging decentralized and traditional Finance"
+            },
+            "why": {
+                "title": "为什么需要 <span>${name}</span>",
+                "description": "对于区块链金融我们成为Defi，目前Defi还处于发展的初期，其中存在着很多的不足，从投资者的角度出发：",
+                "list": [
+                    {
+                        "title": "不知道投资什么",
+                        "desc": "投资多样性不足",
+                        "clazz": "one"
+                    },
+                    {
+                        "title": "不知道为什么投资",
+                        "desc": "投资的价值基础不足",
+                        "clazz": "two"
+                    },
+                    {
+                        "title": "不知道怎么投资",
+                        "desc": "投资的价值便捷性不足",
+                        "clazz": "three"
+                    }
+                ]
+            },
+            "target": {
+                "title": "<span>${name}</span> 的目标",
+                "content": [
+                    "通过构建一站式的协议，建立Defi发展的稳定三角，",
+                    "推动以区块链为基础的开放金融发展"
+                ]
+            },
+            "doSomething": "<span>${name}</span> 要做什么",
+            "whats": {
+                "title": "<span>${name}</span> 是什么",
+                "content": [
+                    "FinNexus是一个开放金融协议，",
+                    "通过协议连接不同的数字资产，连接用户与公链，连接不同的服务商"
+                ]
+            },
+            "partner": "<span>${name}</span> 合作伙伴",
+            "team": "<span>${name}</span> 团队",
+            "operationsTeam": {
+                "title": "运营团队",
+                "list": [
+                    {
+                        "avatar": "yangtao.png",
+                        "name": "杨涛",
+                        "job": "创始人 CEO",
+                        "desc": [
+                            "对外经济贸易大学金融及法律双学位，前网录科技副总裁，Wanchain联合创始人。Wanchain主要设计者，2015年进入区块链行业，擅长产品设计，区块链商业运营。进入区块链行业前拥有多年的互联网创业经历，复合型连续创业者。"
+                        ]
+                    },
+                    {
+                        "avatar": "bobchen.png",
+                        "name": "Bob Chen",
+                        "job": "联合创始人、CTO",
+                        "desc": [
+                            "毕业于哈尔滨工业大学，互联网、区块链技术专家，曾服务于阿里巴巴，奇虎360等互联网企业并担任技术负责人。进入区块链行业后，带领团队进行资管类钱包的开发工作，对于高并发应用，区块链资产安全管理，高频量化等方面尤为擅长。"
+                        ]
+                    },
+                    {
+                        "avatar": "maikliu.png",
+                        "name": "Maik Liu",
+                        "job": "技术专家",
+                        "desc": [
+                            "移动产品专家，国立虎尾科技大学，2016猎豹移动优秀贡献奖获得者；前猎豹移动资深产品总监，Bitrue数字货币交易所联合创始人；在移动App和数字货币行业经验丰富。"
+                        ]
+                    },
+                    {
+                        "avatar": "railytian.png",
+                        "name": "Ryan Tian",
+                        "job": "金融专家",
+                        "desc": [
+                            "约克大学金融工程硕士，金融从业10余年，曾供职于任知名证券公司投资银行部，负责多家企业上市公司的保荐上市工作。证券产品的全流程专家，擅长财务及风控。"
+                        ]
+                    },
+                    {
+                        "avatar": "jacktung.png",
+                        "name": "Jack Tung",
+                        "job": "资管专家",
+                        "desc": [
+                            "毕业于新加坡南洋理工大学，10余年企业及高净值人群资产管理服务经验，资深Fintech顾问，擅长资管合规框架设计，金融企业架构合规设计。"
+                        ]
+                    }
+                ]
+            },
+            "investmentAgency": {
+                "title": "创始投资人",
+                "description": [
+                    "FinNexus 项目由团队成员及两位重量级的创始投资伙伴共同发起。",
+                    "创始投资伙伴分别是Wanchain及Superatom。"
+                ],
+                "list": [
+                    {
+                        "pic": "wanchainlogo.png",
+                        "desc": [
+                            "Wanchain区块链行业的技术领军项目，Wanchain通过在隐私保护，跨链协议，星系POS共识等公链技术创新积累了强大的技术力量。尤其是Wanchain跨链协议将在DFP的复杂资产应用场景中发挥重要的底层协议作用。Wanchain将在公链技术层面为DFP项目提供全方位的技术支持。"
+                        ]
+                    },
+                    {
+                        "pic": "superatomlogo.png",
+                        "desc": [
+                            "Superatom是互联网及Fintech领域的全球知名企业，在美国，台湾，东南亚等地区拥有多家在当地持牌的Fintech企业，包括数字资产交易所及旗下优质金融资产。Superatom将持续为FNX提供优质的金融资产，丰富资产类型。在初期，双方通过STO将东南亚地区的稳定收益产品（年化收益率15%左右）token化，共同打造数字经济的“余额宝”。"
+                        ]
+                    }
+                ]
+            },
+            "mentor": {
+                "title": "指导委员会",
+                "description": "不同于一些区块链项目中的顾问的角色，FinNexus首创性的成立了项目的指导委员会（Steering Committee），委员会成员由区块链行业和移动互联网，互金，金融，法律等行业的专业人士组成，独立于项目的利益持有者，且不在项目内部任职，并与项目经营管理者没有重要的业务联系或专业联系，并对项目事务做出独立判断的人士。",
+                "list": [
+                    {
+                        "avatar": "jacklu.png",
+                        "name": "吕旭军",
+                        "job": "Wanchain创始人CEO",
+                        "desc": [
+                            "区块链行业领军人，Factom联合创始人，Wanchain创始人兼CEO。13年进入区块链行业，带领Factom及Wanchain实现了隐私保护，跨链协议，POS等多项技术创新。"
+                        ]
+                    },
+                    {
+                        "avatar": "scarletxiao.png",
+                        "name": "肖洁",
+                        "job": "SVP of Cheetah Mobile",
+                        "desc": [
+                            "猎豹移动高级副总裁 Superatom董事长，曾在奇虎360科技有限公司担任公关总监，在雅虎中国及百度负责营销及传播工作。2010年10月起担任猎豹移动公司副总裁，并负责业务开发、市场营销和商业产品业务。"
+                        ]
+                    },
+                    {
+                        "avatar": "zhangyiqin.png",
+                        "name": "张翊钦",
+                        "job": "大河资本创始合伙人",
+                        "desc": [
+                            "中国天使联合会终身会员，百倍投资俱乐部成员，在科技创新等领域主导投资超过60个项目。在互联网行业拥有丰富的产品技术和市场运营经验，历任搜狐内容部技术中心负责人、中移动12580副总裁、海航集团互联网业务公司总裁。"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
