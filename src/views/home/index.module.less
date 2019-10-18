@@ -22,20 +22,28 @@
         position: relative;
         &::before {
             display: block;
-            content: "";
+            content: '';
             width: 20px;
             height: 2px;
-            background: linear-gradient(90deg, rgba(99, 125, 255, 1) 0%, rgba(99, 176, 255, 1) 100%);
+            background: linear-gradient(
+                90deg,
+                rgba(99, 125, 255, 1) 0%,
+                rgba(99, 176, 255, 1) 100%
+            );
             position: absolute;
             top: 46%;
             left: 0;
         }
         &::after {
             display: block;
-            content: "";
+            content: '';
             width: 20px;
             height: 2px;
-            background: linear-gradient(90deg, rgba(99, 176, 255, 1) 0%, rgba(99, 125, 255, 1) 100%);
+            background: linear-gradient(
+                90deg,
+                rgba(99, 176, 255, 1) 0%,
+                rgba(99, 125, 255, 1) 100%
+            );
             position: absolute;
             top: 46%;
             right: 0;
@@ -50,19 +58,27 @@
         margin: 0;
     }
 
-    .tac {text-align: center;}
+    .tac {
+        text-align: center;
+    }
     // home global style end
 
     .banner {
         height: 810px;
-        background: url("@assets/images/banner-bg.jpg") no-repeat center, linear-gradient(120deg, rgba(101, 58, 201, 1) 15%, rgba(38, 63, 190, 1) 100%);
+        background: url('@assets/images/banner-bg.jpg') no-repeat center,
+            linear-gradient(
+                120deg,
+                rgba(101, 58, 201, 1) 15%,
+                rgba(38, 63, 190, 1) 100%
+            );
         background-size: auto 810px;
         color: #fefefe;
         .wrapper {
             position: relative;
             .text {
                 text-align: center;
-                background: url("@assets/images/title-split.png") center 78px no-repeat;
+                background: url('@assets/images/title-split.png') center 78px
+                    no-repeat;
                 background-size: 292px 5px;
                 position: absolute;
                 top: 318px;
@@ -87,7 +103,7 @@
 
     .banner-mobile {
         height: 220px;
-        background: url("@assets/images/banner-bg.jpg") no-repeat;
+        background: url('@assets/images/banner-bg.jpg') no-repeat;
         color: #fefefe;
         overflow: hidden;
         background-size: 100% 220px;
@@ -130,10 +146,13 @@
                     float: left;
                     width: 360px;
                     height: 380px;
-                    border: 1px solid #E9E6F3;
+                    border: 1px solid #e9e6f3;
                     border-radius: 6px;
                     // 577 × 550 | 551 × 323
-                    background: url("@assets/images/why-bg.png") left top ~'/' 288px 275px no-repeat, url("@assets/images/why-01.png") center 210px ~'/' 275px 161px no-repeat;
+                    background: url('@assets/images/why-bg.png') left top ~'/' 288px
+                            275px no-repeat,
+                        url('@assets/images/why-01.png') center 210px ~'/' 275px
+                            161px no-repeat;
                     h4 {
                         font-size: 28px;
                         margin-top: 65px;
@@ -151,7 +170,7 @@
                     width: 270px;
                     height: 380px;
                     margin-left: 10px;
-                    border: 1px solid #E9E6F3;
+                    border: 1px solid #e9e6f3;
                     border-radius: 6px;
                     text-align: center;
                     h4 {
@@ -170,15 +189,18 @@
                         margin: 0;
                     }
                     &.one {
-                        background: url("@assets/images/why-02.png") center 150px no-repeat;
+                        background: url('@assets/images/why-02.png') center
+                            150px no-repeat;
                         background-size: 156px 183px;
                     }
                     &.two {
-                        background: url("@assets/images/why-03.png") center 165px no-repeat;
+                        background: url('@assets/images/why-03.png') center
+                            165px no-repeat;
                         background-size: 156px 169px;
                     }
                     &.three {
-                        background: url("@assets/images/why-04.png") center 140px no-repeat;
+                        background: url('@assets/images/why-04.png') center
+                            140px no-repeat;
                         background-size: 156px 197px;
                     }
                 }
@@ -192,13 +214,16 @@
             .why-dfp-list {
                 padding-top: 20px;
                 dt {
-                        height: 380px;
-                        border: 1px solid #e9e6f3;
-                        border-radius: 6px;
-                        margin-left: 10px;
-                        margin-right: 10px;
-                        margin: 10px;
-                        background: url("@assets/images/why-bg.png") left top ~'/' 288px 275px no-repeat, url("@assets/images/why-01.png") center 210px ~'/' 275px 161px no-repeat;
+                    height: 380px;
+                    border: 1px solid #e9e6f3;
+                    border-radius: 6px;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    margin: 10px;
+                    background: url('@assets/images/why-bg.png') left top ~'/' 288px
+                            275px no-repeat,
+                        url('@assets/images/why-01.png') center 210px ~'/' 275px
+                            161px no-repeat;
                     h4 {
                         font-size: 28px;
                         margin-top: 65px;
@@ -212,13 +237,13 @@
                     }
                 }
                 dd {
-                        height: 380px;
-                        border: 1px solid #e9e6f3;
-                        border-radius: 6px;
-                        text-align: center;
-                        margin: 10px;
+                    height: 380px;
+                    border: 1px solid #e9e6f3;
+                    border-radius: 6px;
+                    text-align: center;
+                    margin: 10px;
                     h4 {
-                        font-size: 20px;
+                        font-size: 28px;
                         font-weight: bold;
                         color: rgba(53, 55, 192, 1);
                         line-height: 24px;
@@ -233,15 +258,18 @@
                         margin: 0;
                     }
                     &.one {
-                        background: url("@assets/images/why-02.png") center 150px no-repeat;
+                        background: url('@assets/images/why-02.png') center
+                            150px no-repeat;
                         background-size: 156px 183px;
                     }
                     &.two {
-                        background: url("@assets/images/why-03.png") center 165px no-repeat;
+                        background: url('@assets/images/why-03.png') center
+                            165px no-repeat;
                         background-size: 156px 169px;
                     }
                     &.three {
-                        background: url("@assets/images/why-04.png") center 140px no-repeat;
+                        background: url('@assets/images/why-04.png') center
+                            140px no-repeat;
                         background-size: 156px 197px;
                     }
                 }
@@ -256,7 +284,8 @@
             height: 100%;
             padding-top: 200px;
             padding-left: 50px;
-            background: url("@assets/images/logo-white-bg.png") 0 center no-repeat;
+            background: url('@assets/images/logo-white-bg.png') 0 center
+                no-repeat;
             background-size: 537px 393px;
             position: relative;
             .target-dfp-img {
@@ -275,7 +304,8 @@
         background-color: @color-bg-gray;
         .wrapper {
             height: 100%;
-            background: url("@assets/images/logo-white-bg.png") 0 center no-repeat;
+            background: url('@assets/images/logo-white-bg.png') 0 center
+                no-repeat;
             background-size: 537px 393px;
             position: relative;
 
@@ -286,26 +316,26 @@
                 display: block;
             }
 
-            .g-title{
-                font-size: 35px;
+            .g-title {
+                font-size: 28px;
                 color: #3b3d55;
                 line-height: 100%;
                 margin-bottom: 20px;
                 padding-top: 20px;
                 text-align: center;
-            }    
+            }
             .g-title-sub {
                 display: block;
                 text-align: center;
             }
-            
+
             .g-title-sub:before {
-                background: linear-gradient(90deg,#637dff,#63b0ff);
+                background: linear-gradient(90deg, #637dff, #63b0ff);
                 left: 110px;
             }
 
-            .g-title-sub:after{
-                background: linear-gradient(90deg,#63b0ff,#637dff);
+            .g-title-sub:after {
+                background: linear-gradient(90deg, #63b0ff, #637dff);
                 right: 110px;
             }
 
@@ -316,7 +346,7 @@
     }
 
     .do-something-dfp {
-        height: 700px;;
+        height: 700px;
         .title {
             text-align: center;
             padding-top: 70px;
@@ -359,11 +389,19 @@
     }
 
     .do-something-dfp-mobile {
-        height: 1310px;;
+        height: 1310px;
         .title {
             text-align: center;
             padding-top: 70px;
         }
+
+        .g-title {
+            font-size: 28px;
+            color: #3b3d55;
+            line-height: 100%;
+            margin-bottom: 20px;
+        }
+
         .do-something-list {
             padding-top: 40px;
             li {
@@ -419,7 +457,6 @@
         }
     }
 
-
     .whats-dfp-mobile {
         // height: 700px;
         background-color: @color-bg-gray;
@@ -435,7 +472,7 @@
         }
 
         .g-title {
-            font-size: 35px;
+            font-size: 28px;
             color: #3b3d55;
             line-height: 100%;
             margin-bottom: 0px;
@@ -446,14 +483,14 @@
             display: block;
             text-align: center;
         }
-        
+
         .g-title-sub:before {
-            background: linear-gradient(90deg,#637dff,#63b0ff);
+            background: linear-gradient(90deg, #637dff, #63b0ff);
             left: 110px;
         }
 
-        .g-title-sub:after{
-            background: linear-gradient(90deg,#63b0ff,#637dff);
+        .g-title-sub:after {
+            background: linear-gradient(90deg, #63b0ff, #637dff);
             right: 110px;
         }
 
@@ -506,26 +543,26 @@
                 margin-bottom: 40px;
             }
 
-            .g-title{
-                font-size: 35px;
+            .g-title {
+                font-size: 28px;
                 color: #3b3d55;
                 line-height: 100%;
                 margin-bottom: 5px;
                 padding-top: 0;
                 text-align: center;
-            }    
+            }
             .g-title-sub {
                 display: block;
                 text-align: center;
             }
-            
+
             .g-title-sub:before {
-                background: linear-gradient(90deg,#637dff,#63b0ff);
+                background: linear-gradient(90deg, #637dff, #63b0ff);
                 left: 110px;
             }
 
-            .g-title-sub:after{
-                background: linear-gradient(90deg,#63b0ff,#637dff);
+            .g-title-sub:after {
+                background: linear-gradient(90deg, #63b0ff, #637dff);
                 right: 110px;
             }
 
@@ -538,9 +575,9 @@
                     border: 1px solid #eaeaec;
                     border-radius: 4px;
                     box-shadow: none;
-                    transition: all .2s ease;
+                    transition: all 0.2s ease;
                     margin: 10px;
-                    
+
                     &:nth-of-type(5n) {
                         margin-right: 0;
                     }
@@ -577,21 +614,20 @@
             }
             &::before {
                 display: block;
-                content: "";
+                content: '';
                 width: 6px;
                 height: 6px;
                 background: #fff;
-                border: 2px solid #6C63FF;
+                border: 2px solid #6c63ff;
                 border-radius: 3px;
                 position: absolute;
                 top: 38%;
                 right: 0;
-
             }
             &::after {
                 display: block;
                 flex: 1;
-                content: "";
+                content: '';
                 height: 0;
                 border-top: 1px dotted #d9dce7;
             }
@@ -624,7 +660,7 @@
                 }
                 &::before {
                     display: block;
-                    content: "";
+                    content: '';
                     width: 20px;
                     height: 2px;
                     background-color: @color-text-purple;
@@ -813,7 +849,7 @@
         }
 
         .g-title {
-            font-size: 35px;
+            font-size: 28px;
             color: #3b3d55;
             line-height: 100%;
             margin-bottom: 20px;
@@ -831,8 +867,8 @@
                 display: block;
                 text-align: center;
                 margin: 0 auto;
+                font-size: 28px;
             }
-            
         }
         .team-description {
             font-size: 14px;
@@ -847,12 +883,12 @@
             li {
                 width: 48%;
                 background: #fff;
-                box-shadow: 0 10px 10px hsla(0,0%,80%,.2);
+                box-shadow: 0 10px 10px hsla(0, 0%, 80%, 0.2);
                 border: 1px solid #e9e9f1;
                 border-radius: 5px;
                 cursor: pointer;
                 position: relative;
-                transition: all .5s linear;
+                transition: all 0.5s linear;
                 margin: 3px;
                 display: inline-block;
 
@@ -861,7 +897,7 @@
                 }
                 &::before {
                     display: block;
-                    content: "";
+                    content: '';
                     width: 20px;
                     height: 2px;
                     background-color: @color-text-purple;
@@ -964,7 +1000,7 @@
                     transition: all 0.5s ease 0.2s;
                     position: relative;
                     margin-bottom: 20px;
-                    
+
                     p {
                         margin: 0;
                     }
@@ -1033,7 +1069,7 @@
 
     .footer {
         height: 120px;
-        background-color: #251D47;
+        background-color: #251d47;
         border-bottom: 30px solid #151029;
         .wrapper {
             display: flex;
@@ -1054,7 +1090,7 @@
                         border-radius: 100px;
                         color: rgba(255, 255, 255, 1);
                         &:hover {
-                            color: rgba(255, 255, 255, .6);
+                            color: rgba(255, 255, 255, 0.6);
                         }
                         i {
                             font-size: 24px;
@@ -1073,20 +1109,22 @@
                         display: none;
                         width: 120px;
                         height: 120px;
-                        background: #fff url("@assets/images/wechat-qrcode.jpeg") no-repeat;
+                        background: #fff
+                            url('@assets/images/wechat-qrcode.jpeg') no-repeat;
                         background-size: 120px 120px;
                         position: absolute;
                         top: -130px;
                         left: -42px;
-                        box-shadow: 0 0 16px rgba(37, 29, 71, .5);
+                        box-shadow: 0 0 16px rgba(37, 29, 71, 0.5);
                         &::after {
                             display: block;
-                            content: "";
+                            content: '';
                             width: 0;
                             height: 0;
                             border-width: 8px;
                             border-style: solid;
-                            border-color: #fff transparent transparent transparent;
+                            border-color: #fff transparent transparent
+                                transparent;
                             position: absolute;
                             left: 50%;
                             bottom: -14px;
@@ -1103,7 +1141,7 @@
                     height: 40px;
                     text-indent: 20px;
                     margin-right: 10px;
-                    background-color: #39315B;
+                    background-color: #39315b;
                     border-radius: 20px;
                     border: none;
                     outline: none;
@@ -1117,7 +1155,11 @@
                 button {
                     width: 124px;
                     height: 40px;
-                    background: linear-gradient(90deg, rgba(108, 99, 255, 1) 0%, rgba(84, 52, 200, 1) 100%);
+                    background: linear-gradient(
+                        90deg,
+                        rgba(108, 99, 255, 1) 0%,
+                        rgba(84, 52, 200, 1) 100%
+                    );
                     border-radius: 20px;
                     border: none;
                     outline: none;
@@ -1130,9 +1172,9 @@
         }
     }
 
-    .footer-mobile{
+    .footer-mobile {
         height: 220px;
-        background-color: #251D47;
+        background-color: #251d47;
         border-bottom: 30px solid #151029;
         .wrapper {
             display: flex;
@@ -1154,7 +1196,7 @@
                         border-radius: 100px;
                         color: rgba(255, 255, 255, 1);
                         &:hover {
-                            color: rgba(255, 255, 255, .6);
+                            color: rgba(255, 255, 255, 0.6);
                         }
                         i {
                             font-size: 24px;
@@ -1173,20 +1215,22 @@
                         display: none;
                         width: 120px;
                         height: 120px;
-                        background: #fff url("@assets/images/wechat-qrcode.jpeg") no-repeat;
+                        background: #fff
+                            url('@assets/images/wechat-qrcode.jpeg') no-repeat;
                         background-size: 120px 120px;
                         position: absolute;
                         top: -130px;
                         left: -42px;
-                        box-shadow: 0 0 16px rgba(37, 29, 71, .5);
+                        box-shadow: 0 0 16px rgba(37, 29, 71, 0.5);
                         &::after {
                             display: block;
-                            content: "";
+                            content: '';
                             width: 0;
                             height: 0;
                             border-width: 8px;
                             border-style: solid;
-                            border-color: #fff transparent transparent transparent;
+                            border-color: #fff transparent transparent
+                                transparent;
                             position: absolute;
                             left: 50%;
                             bottom: -14px;
@@ -1195,8 +1239,6 @@
                     }
                 }
             }
-
-            
         }
 
         .right.subscribe {
@@ -1221,7 +1263,7 @@
             button {
                 width: 124px;
                 height: 40px;
-                background: linear-gradient(90deg,#6c63ff,#5434c8);
+                background: linear-gradient(90deg, #6c63ff, #5434c8);
                 border-radius: 20px;
                 border: none;
                 outline: none;
@@ -1237,7 +1279,7 @@
     }
 }
 
-html[lang="en"] {
+html[lang='en'] {
     .component {
         .why-dfp .wrapper .why-dfp-list dt h4 {
             margin-top: 40px;
