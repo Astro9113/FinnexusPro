@@ -81,12 +81,15 @@ class Nav extends React.Component {
         this.setState({ 
             isShowButton: !this.state.isShowButton,
          })
+
+         if (this.state.isShowButton == false) {
+            setTimeout(()=> {
+                this.setState({ 
+                    isShowButton: false,
+                 })
+             }, 3000)
+         }
          
-         setTimeout(()=> {
-            this.setState({ 
-                isShowButton: false,
-             })
-         }, 3000)
     }
 
     clickButton2() {
