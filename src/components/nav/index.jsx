@@ -82,13 +82,13 @@ class Nav extends React.Component {
             isShowButton: !this.state.isShowButton,
          })
 
-         if (this.state.isShowButton == false) {
-            setTimeout(()=> {
-                this.setState({ 
-                    isShowButton: false,
-                 })
-             }, 3000)
-         }
+        //  if (this.state.isShowButton == false) {
+        //     setTimeout(()=> {
+        //         this.setState({ 
+        //             isShowButton: false,
+        //          })
+        //      }, 3000)
+        //  }
          
     }
 
@@ -122,8 +122,8 @@ class Nav extends React.Component {
                         </a>
                     </li>
                     <li><a href="#home" onClick={e => this.scroll2(0, e)}>{__('navs.home')}</a></li>
-                    <li><a href="#team" onClick={e => this.scroll2(4500, e)}>{__('navs.team')}</a></li>
-                    <li><a href="#partners" onClick={e => this.scroll2(4100, e)}>{__('navs.partners')}</a></li>
+                    <li><a href="#team" onClick={e => this.scroll2(4400, e)}>{__('navs.team')}</a></li>
+                    <li><a href="#partners" onClick={e => this.scroll2(4000, e)}>{__('navs.partners')}</a></li>
                     <li><a href="/FinNexus_Whitepaper_zh.pdf" target="_blank">{__('navs.whitePaperZh')}</a></li>
                     <li><a href="FinNexus_Whitepaper_en.pdf" target="_blank">{__('navs.whitePaperEn')}</a></li>
                 </ul>
