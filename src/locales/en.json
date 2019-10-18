@@ -50,7 +50,7 @@
                     "of DeFi (diversity, value, and convenience)."
                 ]
             },
-            "doSomething": "What does the <span>${name}</span> do",
+            "doSomething": "What does <span>${name}</span> do",
             "whats": {
                 "title": "What is <span>${name}</span>",
                 "content": [
@@ -68,7 +68,7 @@
                         "name": "Boris Yang",
                         "job": "Founder & CEO",
                         "desc": [
-                            "Boris graduated from UIBE，with double degrees in Finance and Law. He is former co-founder of Wanchain, and the main designer of Wanchain. He entered the blockchain industry and concentrated on product design and business operation. Before that, he has had many years of experience in internet startups."
+                            "Boris graduated from UIBE，with double degrees in Finance and Law. He is the co-founder of Wanchain and main designer of Wanchain. He is an experienced blockchain industry insider with concentrations in product design and business operations. Before entering the blockchain industry he had many years of experience in internet startups."
                         ]
                     },
                     {
@@ -76,7 +76,7 @@
                         "name": "Bob Chen",
                         "job": "Co-founder & CTO",
                         "desc": [
-                            "Bob graduated from Harbin Institute of Technology, and is an expert in Internet and blockchain technology. He worked for internet giants such as Alibaba and Qihoo 360. After entering the blockchain industry, he led a team to develop an asset management wallet. His expertise is in blockchain asset security management."
+                            "Bob graduated from Harbin Institute of Technology, and is an expert in internet and blockchain technology. He previously worked for internet giants such as Alibaba and Qihoo 360. After entering the blockchain industry, he led a team in the development of an asset management wallet. His expertise is in blockchain asset security management."
                         ]
                     },
                     {
@@ -84,15 +84,15 @@
                         "name": "Maik Liu",
                         "job": "Technical Specialist",
                         "desc": [
-                            "Maik graduated from National Formosa University. He is a mobile product specialist and was honored with Cheetah Mobile’s Outstanding Contribution Award. He was former Senior Director of Cheetah Mobile, Co-founder of Bitrue exchange. He also has much experience in mobile apps and the crypto industry."
+                            "Maik graduated from National Formosa University. He is a mobile product specialist and was honored with Cheetah Mobile’s Outstanding Contribution Award. He was former Senior Director of Cheetah Mobile and Co-founder of Bitrue exchange. He also has considerable experience in mobile apps and the crypto industry."
                         ]
                     },
                     {
                         "avatar": "railytian.png",
-                        "name": "Ryan Tian",
+                        "name": "Raily Tian",
                         "job": "Financial Specialist",
                         "desc": [
-                            "Raily earned his master’s degree in financial engineering from York University. He has worked in the financial industry for more than 10 years. He worked in the investment bank and was responsible for sponsorship of listed companies. His expertise is in the securities products and he specializes in finance and risk control."
+                            "Raily earned his master’s degree in financial engineering from York University. He has worked in the finance industry for more than 10 years. He worked in investment banking as a senior level CSRC licensed compliance officer for publicly listed companies. His expertise is in  securities products and he specializes in finance and risk control."
                         ]
                     },
                     {
@@ -100,7 +100,7 @@
                         "name": "Jack Tung",
                         "job": "Legal Expert",
                         "desc": [
-                            "Jack graduated from Nanyang Technological University. He has more than 10 years of experience in asset management services for companies. He is a senior Fintech consultant, specializing in the framework design of asset management compliance, architecture design of financial enterprise compliance."
+                            "Jack graduated from Nanyang Technological University. He has more than 10 years of experience in asset management services for companies. He is a senior Fintech consultant, specializing in framework design for asset management compliance, and architecture design for financial enterprise compliance."
                         ]
                     }
                 ]
@@ -128,14 +128,14 @@
             },
             "mentor": {
                 "title": "Steering Committee",
-                "description": "FinNexus establishes its steering committee with members who are each specialists in their respective fields. From blockchain, mobile internet, finance, law, etc.",
+                "description": "FinNexus has established its steering committee with members who are each specialists in their respective fields. From blockchain, mobile internet, finance, law, etc.",
                 "list": [
                     {
                         "avatar": "jacklu.png",
                         "name": "Jack Lu",
                         "job": "Founder of Wanchain",
                         "desc": [
-                            "He is co-founder of Factom, and founder & CEO of Wanchain. In 2013, he entered the blockchain industry and led the projects Factom and Wanchain to achieve multiple technical innovations in areas such as privacy protection, cross-chain protocol, and new consensus mechanisms."
+                            "Jack is co-founder of Factom, and founder & CEO of Wanchain. In 2013, he entered the blockchain industry and led the projects Factom and Wanchain to achieve multiple technical innovations in areas such as privacy protection, cross-chain protocol, and new consensus mechanisms."
                         ]
                     },
                     {
@@ -143,7 +143,7 @@
                         "name": "Scarlet Xiao",
                         "job": "SVP of Cheetah Mobile",
                         "desc": [
-                            "Board Member of Cheetah Mobile, Chairman of the Board of SuperAtom. She worked as a public relation director at Qihoo 360, and as a communication manager of Yahoo China. Since October 2010, she takes the position of VP of Cheetah Mobile and is responsible for business development, marketing."
+                            "Scarlet is a board member of Cheetah Mobile and Chairman of the Board of SuperAtom. She worked as a public relation director at Qihoo 360 and as a communication manager of Yahoo China. Since October 2010, she has taken the position of VP of Cheetah Mobile where she oversees business development and marketing."
                         ]
                     },
                     {
@@ -151,7 +151,7 @@
                         "name": "Eason Zhang",
                         "job": "FP of River Capital",
                         "desc": [
-                            "Founding partner of River Capital, Life-member of China Youth Angel Investor Leader Association. Has invested over 60 companies in industry of science and technology. Has served as the head of product department of Sohu, VP of China Mobile 12580, president of HNA Group Internet Business."
+                            "Eason is a founding partner of River Capital, and member of China Youth Angel Investor Leader Association. He has invested over 60 science and technology companies. Has served as the head of product department of Sohu, VP of China Mobile 12580, and president of HNA Group Internet Business."
                         ]
                     }
                 ]
