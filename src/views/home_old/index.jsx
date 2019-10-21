@@ -1,8 +1,6 @@
 import React from 'react'
 import { extend, getLocaleId } from 'koot'
 
-import Modal from 'react-modal';
-
 import Center from '@components/center'
 
 import targetImgCn from '@assets/images/dfp-target-img-cn.png'
@@ -38,20 +36,6 @@ const partnerLists = [
     uangme
 ]
 
-const customStyles = {
-    content : {
-      top                   : '50%',
-      left                  : '50%',
-      right                 : 'auto',
-      bottom                : 'auto',
-      marginRight           : '-50%',
-      transform             : 'translate(-50%, -50%)'
-    }
-    
-  };
-
-  Modal.setAppElement('#root')
-
 @extend({
     styles: require('./index.module.less'),
     pageinfo: {
@@ -68,23 +52,14 @@ const customStyles = {
         ]
     }
 })
-
 class PageHome extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
             isMobile: false,
-            modalIsOpen: false,
-            item: {},
-            picSrc: '',
-            isPartner: true,
         }
 
         this.handlerSubscribe = this.handlerSubscribe.bind(this)
-
-        this.afterOpenModal = this.afterOpenModal.bind(this);
-        this.closeModal = this.closeModal.bind(this);
-
     }
 
     componentDidMount () {
@@ -98,69 +73,14 @@ class PageHome extends React.Component {
         window.open('https://mailchi.mp/9c15712d2bbf/finnexus-newsletter')
     }
 
-    openModal(item) {
-        // avatar, name, job, desc
-        // console.log('name', item)
-
-        const isPartner = item.avatar ? true : false;
-
-        const pic = item.avatar ? item.avatar : item.pic;
-        const picSrc = require('@assets/images/' + pic);
-        
-        this.setState({
-            modalIsOpen: true,
-            item: item,
-            picSrc: picSrc,
-            isPartner: isPartner,
-        });
-      }
-    
-      afterOpenModal() {
-        // references are now sync'd and can be accessed.
-        this.subtitle.style.color = '#f00';
-        this.subtitle.style.marginBottom= '-17px';
-
-        if (this.state.isPartner) {
-            this.subimg.style.width = '60px';
-            this.subimg.style.height = '60px';
-        } else {
-            this.subimg.style.position =  'relative';
-            this.subimg.style.top = '-20px';
-            this.subimg.style.margin = '20px 0';
-            this.subimg.style.width = '50%';
-            this.subimg.style.height = '50%';
-        }
-        
-
-        this.subH4.style.position = 'relative';
-        this.subH4.style.top= '-50px';
-        this.subH4.style.left= '70px';
-
-        this.subP.style.position = 'relative';
-        this.subP.style.top = '-40px';
-        this.subP.style.fontSize = '14px';
-        this.subP.style.color = '#6c6e90';
-        this.subP.style.lineHeight = '20px';
-
-      }
-    
-      closeModal() {
-        this.setState({modalIsOpen: false});
-      }  
-    
-
     render () {
 
-        const { isMobile, item , picSrc} = this.state
+        const { isMobile } = this.state
 
         if (isMobile) {
 
             return (
-
-               
-      
                 <div className={this.props.className}>
-
                     <section className="home-wrap">
                         {/* Banner */}
                         <section className="banner-mobile">
@@ -183,10 +103,8 @@ class PageHome extends React.Component {
                                     {__('pages.home.why.list').map((item, index) => {
                                         return (
                                             <dd key={index} className={item.clazz}>
-                                            <div className={item.class_div}>
                                                 <h4>{item.title}</h4>
                                                 <p>{item.desc}</p>
-                                            </div>
                                             </dd>
                                         )
                                     })}
@@ -198,7 +116,7 @@ class PageHome extends React.Component {
                         <section className="target-dfp-mobile">
                             <Center className="wrapper">
                                 <h4 className="g-title" dangerouslySetInnerHTML={{ __html: __('pages.home.target.title', { name: 'FinNexus' }) }} />
-                                {/* <div className="g-title-sub">{__('pages.home.slogan')}</div> */}
+                                <div className="g-title-sub">{__('pages.home.slogan')}</div>
                                 {__('pages.home.target.content').map((item, index) => {
                                     return <p key={index} className="g-description">{item}</p>
                                 })}
@@ -211,7 +129,7 @@ class PageHome extends React.Component {
                             <Center className="wrapper">
                                 <div className="title">
                                     <h4 className="g-title" dangerouslySetInnerHTML={{ __html: __('pages.home.doSomething', { name: 'FinNexus' }) }} />
-                                    {/* <div className="g-title-sub">{__('pages.home.slogan')}</div> */}
+                                    <div className="g-title-sub">{__('pages.home.slogan')}</div>
                                 </div>
                                 <div className="content">
                                     <ul className="do-something-list">
@@ -227,7 +145,7 @@ class PageHome extends React.Component {
                         <section className="whats-dfp-mobile">
                             <Center className="wrapper">
                                 <h4 className="g-title" dangerouslySetInnerHTML={{ __html: __('pages.home.whats.title', { name: 'FinNexus' }) }} />
-                                {/* <div className="g-title-sub">{__('pages.home.slogan')}</div> */}
+                                <div className="g-title-sub">{__('pages.home.slogan')}</div>
                                 {__('pages.home.whats.content').map((item, index) => {
                                     return <p key={index} className="g-description">{item}</p>
                                 })}
@@ -240,7 +158,7 @@ class PageHome extends React.Component {
                             <Center className="wrapper">
                                 <div className="title">
                                     <h4 className="g-title" dangerouslySetInnerHTML={{ __html: __('pages.home.partner', { name: 'FinNexus' }) }} />
-                                    {/* <div className="g-title-sub">{__('pages.home.slogan')}</div> */}
+                                    <div className="g-title-sub">{__('pages.home.slogan')}</div>
                                 </div>
                                 <ul className="partner-lists">
                                     {
@@ -264,11 +182,14 @@ class PageHome extends React.Component {
                                 <ul className="team-list">
                                     {__('pages.home.operationsTeam.list').map((item, index) => {
                                         return (
-                                            <li key={index} onClick={() => this.openModal(item)} >
+                                            <li key={index}>
                                                 <span className="avatar"><img src={require('@assets/images/' + item.avatar)} alt="" /></span>
                                                 <span className="name">{item.name}</span>
                                                 <span className="job">{item.job}</span>
                                                 <span className="dividing-line"></span>
+                                                <p className="desc">
+                                                    {item.desc.map((itemDesc, i) => <React.Fragment key={i}>{itemDesc}<br /></React.Fragment>)}
+                                                </p>
                                             </li>
                                         )
                                     })}
@@ -283,7 +204,7 @@ class PageHome extends React.Component {
                                     <ul className="team-list company-list">
                                         {__('pages.home.investmentAgency.list').map((item, index) => {
                                             return (
-                                                <li key={index} onClick={() => this.openModal(item)}>
+                                                <li key={index}>
                                                     <span className="logo"><img src={require('@assets/images/' + item.pic)} alt="" /></span>
                                                     <span className="dividing-line"></span>
                                                     <p className="desc">
@@ -303,7 +224,7 @@ class PageHome extends React.Component {
                                         {__('pages.home.mentor.list').map((item, index) => {
                                             if (index === 1) return null
                                             return (
-                                                <li key={index}  onClick={() => this.openModal(item)}>
+                                                <li key={index}>
                                                     <span className="avatar"><img src={require('@assets/images/' + item.avatar)} alt="" /></span>
                                                     <span className="name">{item.name}</span>
                                                     <span className="job">{item.job}</span>
@@ -341,25 +262,7 @@ class PageHome extends React.Component {
                                 </div>
                         </section>
                     </section>
-
-                    <div>
-                        <Modal
-                            isOpen={this.state.modalIsOpen}
-                            onAfterOpen={this.afterOpenModal}
-                            onRequestClose={this.closeModal}
-                            style={customStyles}
-                        >
-                            <img src={picSrc} alt="" ref={subimg => this.subimg = subimg}/>
-                            <div ref={subH4 => this.subH4 = subH4}>
-                                <h2 ref={subtitle => this.subtitle = subtitle}>{item.name}</h2>
-                                <h4 >{item.job}</h4>
-                            </div>
-                            <p ref={subP => this.subP = subP}>{item.desc}</p>
-                            {/* <button onClick={this.closeModal}>close</button> */}
-                        </Modal>
-                    </div>
-        
-                    </div>
+                </div>
             )
 
         } else {

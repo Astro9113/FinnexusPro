@@ -84,7 +84,6 @@
                 top: 318px;
                 left: 0;
                 h3 {
-                    color: #fefefe;
                     font-size: 46px;
                     font-weight: bold;
                     line-height: 100%;
@@ -115,7 +114,6 @@
                 background-size: 292px 5px;
                 position: absolute;
                 h3 {
-                    color: #fefefe;
                     font-size: 23px;
                     font-weight: 700;
                     margin-bottom: 5px;
@@ -211,7 +209,7 @@
     }
 
     .why-dfp-mobile {
-        height: 1050px;
+        height: 1600px;
         .wrapper {
             .why-dfp-list {
                 padding-top: 20px;
@@ -239,7 +237,7 @@
                     }
                 }
                 dd {
-                    height: 200px;
+                    height: 380px;
                     border: 1px solid #e9e6f3;
                     border-radius: 6px;
                     text-align: center;
@@ -259,38 +257,20 @@
                         line-height: 24px;
                         margin: 0;
                     }
-                    .div1 {
-                        float: left;
-                        padding-left: 20px;
-                        padding-top: 45px;
-                    }
-
-                    .div2 {
-                        float: right;
-                        padding-left: 20px;
-                        padding-top: 45px;
-                    }
-
-                    .div3 {
-                        float: left;
-                        padding-left: 20px;
-                        padding-top: 45px;
-                    }
-
                     &.one {
-                        background: url('@assets/images/why-02.png') right
-                            50px no-repeat;
-                        background-size: 106px 123px;
+                        background: url('@assets/images/why-02.png') center
+                            150px no-repeat;
+                        background-size: 156px 183px;
                     }
                     &.two {
-                        background: url('@assets/images/why-03.png') left
-                        50px no-repeat;
-                        background-size: 106px 123px;
+                        background: url('@assets/images/why-03.png') center
+                            165px no-repeat;
+                        background-size: 156px 169px;
                     }
                     &.three {
-                        background: url('@assets/images/why-04.png') right
-                        50px no-repeat;
-                        background-size: 106px 123px;
+                        background: url('@assets/images/why-04.png') center
+                            140px no-repeat;
+                        background-size: 156px 197px;
                     }
                 }
             }
@@ -320,7 +300,7 @@
     }
 
     .target-dfp-mobile {
-        height: 430px;
+        height: 530px;
         background-color: @color-bg-gray;
         .wrapper {
             height: 100%;
@@ -409,7 +389,7 @@
     }
 
     .do-something-dfp-mobile {
-        height: 1200px;
+        height: 1240px;
         .title {
             text-align: center;
             padding-top: 30px;
@@ -499,7 +479,7 @@
             font-size: 28px;
             color: #3b3d55;
             line-height: 100%;
-            margin-bottom: 10px;
+            margin-bottom: 0px;
             text-align: center;
         }
 
@@ -559,12 +539,12 @@
     }
 
     .partner-dfp-mobile {
-        height: 320px;
+        height: 410px;
         .wrapper {
-            padding-top: 10px;
+            padding-top: 20px;
             .title {
                 text-align: center;
-                margin-bottom: 10px;
+                margin-bottom: 40px;
             }
 
             .g-title {
@@ -864,7 +844,7 @@
     }
 
     .teams-dfp-mobile {
-        height: 1500px;
+        height: 2070px;
         background-color: @color-bg-gray;
         .title {
             text-align: center;
@@ -903,11 +883,6 @@
                 margin: 0;
             }
         }
-        .modal_img{
-            width: 60px;
-            height: 60px;
-            transition: all .5s ease .2s;
-        }
         .team-list {
             li {
                 width: 48%;
@@ -924,56 +899,56 @@
                 &:nth-of-type(5n) {
                     margin-right: 0;
                 }
-                // &::before {
-                //     display: block;
-                //     content: '';
-                //     width: 20px;
-                //     height: 2px;
-                //     background-color: @color-text-purple;
-                //     position: absolute;
-                //     top: -1px;
-                //     left: 50%;
-                //     margin-left: -10px;
-                // }
-                // &:hover {
-                //     box-shadow: 0 14px 16px rgba(204, 204, 204, 0.5);
-                //     .avatar {
-                //         width: 65px;
-                //         height: 65px;
-                //         // border: 3px solid rgba(15, 104, 170, 0.04);
-                //         top: 20px;
-                //         left: 20px;
-                //         transform: translateX(0);
-                //         img {
-                //             width: 65px;
-                //             height: 65px;
-                //         }
-                //     }
-                //     .name {
-                //         font-size: 16px;
-                //         top: 32px;
-                //         left: 94px;
-                //         transform: translateX(0);
-                //     }
-                //     .job {
-                //         font-size: 12px;
-                //         top: 54px;
-                //         left: 94px;
-                //         transform: translateX(0);
-                //     }
-                //     .desc {
-                //         height: 260px;
-                //         /* &::after {
-                //             content: "";
-                //         } */
-                //     }
-                //     .dividing-line {
-                //         margin-top: 80px;
-                //     }
-                //     .logo {
-                //         top: 30px;
-                //     }
-                // }
+                &::before {
+                    display: block;
+                    content: '';
+                    width: 20px;
+                    height: 2px;
+                    background-color: @color-text-purple;
+                    position: absolute;
+                    top: -1px;
+                    left: 50%;
+                    margin-left: -10px;
+                }
+                &:hover {
+                    box-shadow: 0 14px 16px rgba(204, 204, 204, 0.5);
+                    .avatar {
+                        width: 65px;
+                        height: 65px;
+                        // border: 3px solid rgba(15, 104, 170, 0.04);
+                        top: 20px;
+                        left: 20px;
+                        transform: translateX(0);
+                        img {
+                            width: 65px;
+                            height: 65px;
+                        }
+                    }
+                    .name {
+                        font-size: 16px;
+                        top: 32px;
+                        left: 94px;
+                        transform: translateX(0);
+                    }
+                    .job {
+                        font-size: 12px;
+                        top: 54px;
+                        left: 94px;
+                        transform: translateX(0);
+                    }
+                    .desc {
+                        height: 260px;
+                        /* &::after {
+                            content: "";
+                        } */
+                    }
+                    .dividing-line {
+                        margin-top: 80px;
+                    }
+                    .logo {
+                        top: 30px;
+                    }
+                }
 
                 .avatar {
                     width: 60px;
@@ -1017,7 +992,7 @@
                     transition: all 0.5s ease 0.2s;
                 }
                 .desc {
-                    display: none;
+                    display: block;
                     height: 72px;
                     margin-left: 20px;
                     margin-right: 20px;
@@ -1060,14 +1035,14 @@
             }
         }
         .company-list li {
-            // &:hover {
-            //     .desc {
-            //         height: 290px;
-            //     }
-            //     .dividing-line {
-            //         margin-top: 60px;
-            //     }
-            // }
+            &:hover {
+                .desc {
+                    height: 290px;
+                }
+                .dividing-line {
+                    margin-top: 60px;
+                }
+            }
             .desc {
                 height: 172px;
             }

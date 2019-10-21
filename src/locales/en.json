@@ -28,17 +28,20 @@
                     {
                         "title": "What to invest in?",
                         "desc": "Lack of diverse investments",
-                        "clazz": "one"
+                        "clazz": "one",
+                        "class_div": "div1"
                     },
                     {
                         "title": "Why invest?",
                         "desc": "Lack of investments with fundamental value",
-                        "clazz": "two"
+                        "clazz": "two",
+                        "class_div": "div2"
                     },
                     {
                         "title": "How to invest?",
                         "desc": "Lack of convenient options for investment",
-                        "clazz": "three"
+                        "clazz": "three",
+                        "class_div": "div3"
                     }
                 ]
             },

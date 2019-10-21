@@ -28,17 +28,20 @@
                     {
                         "title": "不知道投资什么",
                         "desc": "投资多样性不足",
-                        "clazz": "one"
+                        "clazz": "one",
+                        "class_div": "div1"
                     },
                     {
                         "title": "不知道为什么投资",
                         "desc": "投资的价值基础不足",
-                        "clazz": "two"
+                        "clazz": "two",
+                        "class_div": "div2"
                     },
                     {
                         "title": "不知道怎么投资",
                         "desc": "投资的价值便捷性不足",
-                        "clazz": "three"
+                        "clazz": "three",
+                        "class_div": "div3"
                     }
                 ]
             },
