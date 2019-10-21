@@ -49,7 +49,7 @@ class Nav extends React.Component {
         // TODO
         const scrollTop = document.documentElement.scrollTop || document.body.scrollTop
         if (scrollTop > 300) {
-            this.setState({ ceiling: true })
+            this.setState({ ceiling: true, isShowButton: false })
         } else {
             this.setState({ ceiling: false })
         }
@@ -122,8 +122,8 @@ class Nav extends React.Component {
                         </a>
                     </li>
                     <li><a href="#home" onClick={e => this.scroll2(0, e)}>{__('navs.home')}</a></li>
-                    <li><a href="#team" onClick={e => this.scroll2(4400, e)}>{__('navs.team')}</a></li>
-                    <li><a href="#partners" onClick={e => this.scroll2(4000, e)}>{__('navs.partners')}</a></li>
+                    <li><a href="#team" onClick={e => this.scroll2(3600, e)}>{__('navs.team')}</a></li>
+                    <li><a href="#partners" onClick={e => this.scroll2(3200, e)}>{__('navs.partners')}</a></li>
                     <li><a href="/FinNexus_Whitepaper_zh.pdf" target="_blank">{__('navs.whitePaperZh')}</a></li>
                     <li><a href="FinNexus_Whitepaper_en.pdf" target="_blank">{__('navs.whitePaperEn')}</a></li>
                 </ul>
