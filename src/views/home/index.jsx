@@ -117,7 +117,7 @@ class PageHome extends React.Component {
     
       afterOpenModal() {
         // references are now sync'd and can be accessed.
-        this.subtitle.style.color = '#f00';
+        this.subtitle.style.color = '#3b3d55';
         this.subtitle.style.marginBottom= '-17px';
 
         if (this.state.isPartner) {
@@ -135,6 +135,7 @@ class PageHome extends React.Component {
         this.subH4.style.position = 'relative';
         this.subH4.style.top= '-50px';
         this.subH4.style.left= '70px';
+        this.subH4.style.color = '#5b33c9';
 
         this.subP.style.position = 'relative';
         this.subP.style.top = '-40px';
