@@ -7,7 +7,10 @@
         "news": "News",
         "whitePaper": "White Paper",
         "whitePaperZh": "White Paper(CH)",
-        "whitePaperEn": "White Paper(EN)"
+        "whitePaperEn": "White Paper(EN)",
+        "icto": "ICTO",
+        "ictoZh": "ICTO (CH)",
+        "ictoEn": "ICTO (EN)"
     },
     "pages": {
         "home": {

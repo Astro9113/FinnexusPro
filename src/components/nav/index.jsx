@@ -126,6 +126,8 @@ class Nav extends React.Component {
                     <li><a href="#partners" onClick={e => this.scroll2(3200, e)}>{__('navs.partners')}</a></li>
                     <li><a href="/FinNexus_Whitepaper_zh.pdf" target="_blank">{__('navs.whitePaperZh')}</a></li>
                     <li><a href="FinNexus_Whitepaper_en.pdf" target="_blank">{__('navs.whitePaperEn')}</a></li>
+                    <li><a href="/ICTO_zh.pdf" target="_blank">{__('navs.ictoZh')}</a></li>
+                    <li><a href="ICTO_en.pdf" target="_blank">{__('navs.ictoEn')}</a></li>
                 </ul>
             )
             }
@@ -159,6 +161,15 @@ class Nav extends React.Component {
                                     <li><a href="FinNexus_Whitepaper_en.pdf" target="_blank">{__('navs.whitePaperEn')}</a></li>
                                 </ul>
                             </li>
+
+                            <li className="nav-sub-wrap">
+                                <a href="###">{__('navs.icto')}<i className="iconfont icon-triangle-down"></i></a>
+                                <ul className="nav-sub">
+                                    <li><a href="/ICTO_zh.pdf" target="_blank">{__('navs.ictoZh')}</a></li>
+                                    <li><a href="ICTO_en.pdf" target="_blank">{__('navs.ictoEn')}</a></li>
+                                </ul>
+                            </li>
+
                         </ul>
                         <div className="others">
                             <a

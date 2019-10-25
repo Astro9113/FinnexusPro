@@ -7,7 +7,10 @@
         "news": "新闻",
         "whitePaper": "白皮书",
         "whitePaperZh": "白皮书 (中文)",
-        "whitePaperEn": "白皮书 (英文)"
+        "whitePaperEn": "白皮书 (英文)",
+        "icto": "ICTO",
+        "ictoZh": "ICTO (中文)",
+        "ictoEn": "ICTO (英文)"
     },
     "pages": {
         "home": {
