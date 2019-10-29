@@ -16,7 +16,7 @@ class Nav extends React.Component {
             ceiling: false,
             localeId: '',
             localeUrl: '',
-            isMobile: false,
+            isMobile: true,
             isShowButton: false,
         }
 

@@ -73,7 +73,7 @@ class PageHome extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            isMobile: false,
+            isMobile: true,
             modalIsOpen: false,
             item: {},
             picSrc: '',
