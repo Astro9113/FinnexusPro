@@ -4,13 +4,13 @@ import classNames from 'classnames';
 
 import Nav from '@components/nav';
 
-import ReactLoading from 'react-loading';
+// import ReactLoading from 'react-loading';
 
 // ----------------------------------------------------------------------------
 
-const LoadingApp = ({ type, color }) => (
-	<ReactLoading type={type} color={color} height={667} width={375} />
-);
+// const LoadingApp = ({ type, color }) => (
+// 	<ReactLoading type={type} color={color} height={667} width={375} />
+// );
 {/* <LoadingApp type='spin' color='#000000'/> */}
 
 const App = extend({
