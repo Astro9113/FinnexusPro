@@ -618,7 +618,7 @@
     }
 
     .teams-dfp {
-        height: 1430px;
+        height: 1500px;
         background-color: @color-bg-gray;
         .title {
             text-align: center;
@@ -657,7 +657,7 @@
             }
         }
         .team-description {
-            height: 140px;
+            height: 100px;
             font-size: 14px;
             color: @color-text-base;
             line-height: 20px;
@@ -668,7 +668,7 @@
         .team-list {
             li {
                 width: 224px;
-                height: 410px;
+                height: 480px;
                 float: left;
                 background: rgba(255, 255, 255, 1);
                 box-shadow: 0 10px 10px rgba(204, 204, 204, 0.2);
@@ -720,7 +720,7 @@
                         transform: translateX(0);
                     }
                     .desc {
-                        height: 260px;
+                        height: 400px;
                         /* &::after {
                             content: "";
                         } */
@@ -776,14 +776,14 @@
                 }
                 .desc {
                     display: block;
-                    height: 72px;
+                    height: 165px;
                     margin-left: 20px;
                     margin-right: 20px;
                     font-size: 14px;
                     color: @color-text-base;
                     line-height: 24px;
                     overflow: hidden;
-                    word-break: break-all;
+                    // word-break: break-all;
                     transition: all 0.5s ease 0.2s;
                     position: relative;
                     /* &::after {
@@ -825,10 +825,19 @@
                 }
             }
         }
+
+        .team-list2 li {
+            height: 420px;
+            .desc {
+                height: 100px;
+            }
+        }
         .company-list li {
+            height: 410px;
             &:hover {
+                height: 480px;
                 .desc {
-                    height: 290px;
+                    height: 355px;
                 }
                 .dividing-line {
                     margin-top: 60px;

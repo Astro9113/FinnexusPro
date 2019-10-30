@@ -506,7 +506,7 @@ class PageHome extends React.Component {
                                     <div className="team-description">
                                         <p>{__('pages.home.mentor.description')}</p>
                                     </div>
-                                    <ul className="team-list">
+                                    <ul className="team-list team-list2">
                                         {__('pages.home.mentor.list').map((item, index) => {
                                             if (index === 1) return null
                                             return (
