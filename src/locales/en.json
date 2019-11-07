@@ -10,7 +10,11 @@
         "whitePaperEn": "White Paper (EN)",
         "icto": "ICTO",
         "ictoZh": "ICTO (ZH)",
-        "ictoEn": "ICTO (EN)"
+        "ictoEn": "ICTO (EN)",
+        "Lan": "Lang",
+        "LanZh": "Zh",
+        "LanEn": "En",
+        "LanKo": "Ko"
     },
     "pages": {
         "home": {
@@ -22,7 +26,7 @@
             "slogan": "Finance Evolved",
             "banner": {
                 "title": "FinNexus-Finance Evolved",
-                "by": "Bridging decentralized and traditional Finance"
+                "by": "Bridging decentralized and traditional finance"
             },
             "why": {
                 "title": "Why <span>${name}</span>",

@@ -17,11 +17,11 @@ import doSomethingImgTwoEn from '@assets/images/dfp-dosomething-02-en.png'
 import doSomethingImgThreeEn from '@assets/images/dfp-dosomething-03-en.png'
 import whatsImgEn from '@assets/images/def-whats-en.png'
 
-const targetImg = getLocaleId() === 'en' ? targetImgEn : targetImgCn
-const doSomethingImgOne = getLocaleId() === 'en' ? doSomethingImgOneEn : doSomethingImgOneCn
-const doSomethingImgTwo = getLocaleId() === 'en' ? doSomethingImgTwoEn : doSomethingImgTwoCn
-const doSomethingImgThree = getLocaleId() === 'en' ? doSomethingImgThreeEn : doSomethingImgThreeCn
-const whatsImg = getLocaleId() === 'en' ? whatsImgEn : whatsImgCn
+const targetImg = getLocaleId() === 'zh' ? targetImgCn : targetImgEn
+const doSomethingImgOne = getLocaleId() === 'zh' ? doSomethingImgOneCn : doSomethingImgOneEn
+const doSomethingImgTwo = getLocaleId() === 'zh' ? doSomethingImgTwoCn : doSomethingImgTwoEn
+const doSomethingImgThree = getLocaleId() === 'zh' ? doSomethingImgThreeCn : doSomethingImgThreeEn
+const whatsImg = getLocaleId() === 'zh' ? whatsImgCn : whatsImgEn
 
 import genesis from '@assets/images/partners/genesis.png'
 import consensusCn from '@assets/images/partners/consensus-cn.png'
@@ -29,13 +29,15 @@ import consensusEn from '@assets/images/partners/consensus-en.png'
 import hillstone from '@assets/images/partners/hillstone.png'
 import bitrue from '@assets/images/partners/bitrue.png'
 import uangme from '@assets/images/partners/uangme.png'
+import bkex from '@assets/images/partners/bkex.png'
 
 const partnerLists = [
-    genesis,
-    getLocaleId() === 'en' ? consensusEn : consensusCn,
-    hillstone,
-    bitrue,
-    uangme
+    [genesis, 'https://www.genesis-group.com/'],
+    [getLocaleId() === 'zh' ? consensusCn : consensusEn, 'https://consensus-lab.com/'],
+    [hillstone, 'https://www.hillstonepe.co/'],
+    [bitrue, 'https://www.bitrue.com/'],
+    [uangme, 'https://www.uangme.id/'],
+    [bkex, 'https://www.bkex.com/'],
 ]
 
 const customStyles = {
@@ -247,7 +249,7 @@ class PageHome extends React.Component {
                                     {
                                         partnerLists.map((item, index) => {
                                             return (
-                                                <li key={index}><img src={item} alt="" /></li>
+                                                <li key={index}><a href={item[1]} target="_blank"><img src={item[0]} alt="" /></a></li>
                                             )
                                         })
                                     }
@@ -450,7 +452,7 @@ class PageHome extends React.Component {
                                     {
                                         partnerLists.map((item, index) => {
                                             return (
-                                                <li key={index}><img src={item} alt="" /></li>
+                                                <li key={index}><a href={item[1]} target="_blank"><img src={item[0]} alt="" /></a></li>
                                             )
                                         })
                                     }

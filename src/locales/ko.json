@@ -1,0 +1,170 @@
+{
+    "title": "FinNexus Website",
+    "navs": {
+        "home": "메인",
+        "team": "팀",
+        "partners": "파트너",
+        "news": "新闻",
+        "whitePaper": "화이트 페이퍼 ",
+        "whitePaperZh": "화이트 페이퍼  (ZH)",
+        "whitePaperEn": "화이트 페이퍼  (EN)",
+        "icto": "ICTO",
+        "ictoZh": "ICTO (ZH)",
+        "ictoEn": "ICTO (EN)",
+        "Lan": "Lang",
+        "LanZh": "Zh",
+        "LanEn": "En",
+        "LanKo": "Ko"
+    },
+    "pages": {
+        "home": {
+            "title": "欢迎访问FinNexus官方网站",
+            "keywords": "关键词",
+            "description": "--",
+            "subscribe": "立即订阅",
+            "subscribePlaceholder": "请输入电子邮箱",
+            "slogan": "Finance Evolved",
+            "banner": {
+                "title": "FinNexus-Finance Evolved",
+                "by": "Bridging decentralized and traditional finance"
+            },
+            "why": {
+                "title": "<span>${name}</span> 왜 필요한지",
+                "description": "블록체인 금융에 대해서 우리는 Defi가 된다.현재 Defi는 아직 발전의 초기이고, 아직 많은 부족이 있다.",
+                "list": [
+                    {
+                        "title": "뭘 투자해야 할지 모르다",
+                        "desc": "투자의 다양성 부족하다.",
+                        "clazz": "one",
+                        "class_div": "div1"
+                    },
+                    {
+                        "title": "왜 투자했는지 모르다",
+                        "desc": "투자의 가치기초 부족하다.",
+                        "clazz": "two",
+                        "class_div": "div2"
+                    },
+                    {
+                        "title": "어떻게 투자해야 할지 모르다",
+                        "desc": "투자의 가치 간편성이 부족하다.",
+                        "clazz": "three",
+                        "class_div": "div3"
+                    }
+                ]
+            },
+            "target": {
+                "title": "<span>${name}</span> 의 목표",
+                "content": [
+                    "원스톱 프로토콜 구축을 통해 Defi의 발전을 위해 안정적인 삼각을 구축하고 블록체인 기",
+                    "초로 개방금융 발전을 추진하다."
+                ]
+            },
+            "doSomething": "<span>${name}</span> 는 무엇을 할 것인가",
+            "whats": {
+                "title": "<span>${name}</span> 란 무엇인가",
+                "content": [
+                    "FinNexus는 개방 금융 협약이다.프로토콜을 통해 서로 다른 ",
+                    "디지털 자산을 연결하고 사용자와 공련 그리고 서로 다른 서비스 프로바이더 도 연결하다."
+                ]
+            },
+            "partner": "<span>${name}</span> 파트너",
+            "team": "<span>${name}</span> 팀",
+            "operationsTeam": {
+                "title": "운영 팀",
+                "list": [
+                    {
+                        "avatar": "yangtao.png",
+                        "name": "Boris Yang",
+                        "job": "양타오",
+                        "desc": [
+                            "Wanchain 연합 설립자， Wanchain의 주요 설계자.2015년도 블록체인 업계에 입사하여 제품 디자인, 블록체인 비즈니스 운영을 잘한다.블록체인 업계에 입사하기 전 다년간 인터넷 창업하고 경력을 가지는 복합형 연속 창업자."
+                        ]
+                    },
+                    {
+                        "avatar": "bobchen.png",
+                        "name": "Bob Chen",
+                        "job": "공동창업자 、CTO",
+                        "desc": [
+                            "하얼빈공대에 졸업한다.인터넷, 블록체인 기술의 전문가.알리바바, 치후 360 등 인터넷 기업에 근무하며 기술책임자를 지냈다.블록체인 업계에 진출한 뒤 팀을 이끌고 자산관리, 고관류 지갑 개발을 담당하고 있다.고합병 애플리케이션, 블록체인 자산안전관리, 고주파량화 등에 특히 잘하다."
+                        ]
+                    },
+                    {
+                        "avatar": "maikliu.png",
+                        "name": "Maik Liu",
+                        "job": "기술 전문가 ",
+                        "desc": [
+                            "모바일 제품 전문가.국립호미과기대학교 2016년도 치타 모바일 우수 공헌상 수상자.전 치타 모바일 베테랑 제품 감독, 비트루 디지털 화폐 거래소 공동 창립자.모바일 App과 디지털 화폐 업계에서의 경험이 풍부하다."
+                        ]
+                    },
+                    {
+                        "avatar": "railytian.png",
+                        "name": "Ryan Tian",
+                        "job": "그융 전문가",
+                        "desc": [
+                            "요크대 금융엔지니어링 석사.금융업에 10년간 일했다.유명 증권사 투자은행(IB)부로 근무하며 여러 기업 상장사의 보천 상장을 담당했다.증권 제품의 전 프로세스 전문가로서 재무 및 풍제어에 뛰어나다."
+                        ]
+                    },
+                    {
+                        "avatar": "jacktung.png",
+                        "name": "Jack Tung",
+                        "job": "자산관리 전문가",
+                        "desc": [
+                            "싱가포르 남양이공대를 졸업한다.10여년 동안 기업 및 고순수 자산관리 서비스 경험이 있다. 베테랑 핀테크 컨설턴트로서 자관 합규 프레임워크, 금융 기업 아키텍쳐 디자인에 뛰어났다."
+                        ]
+                    }
+                ]
+            },
+            "investmentAgency": {
+                "title": "창시투자인",
+                "description": [
+                    "Finnexus프로젝트는 팀 멤버 와 두 명의 창립 투자 파트너가 공동으로 시",
+                    "작한다.창시 투자 파트너는 바로 Wanchain과 Superatom다."
+                ],
+                "list": [
+                    {
+                        "pic": "wanchainlogo.png",
+                        "desc": [
+                            "Wanchain은 블록체인 업계의 기술 리더 프로그램이다.Wanchain은 프라이버시 보호, 크로스 링크 프로토콜, 은하 POS 컨센서스 같은 공공 사슬 기술 혁신을 통해 강력한 기술력을 축적해 왔다.특히 Wanchain 크로스 프로토콜은 FinNexus의 복잡한 자산 활용 장면에서 중요한  기초 프로토콜 역할을 할 것이다.Wanchain은 공련 기술 쪽 에서 FinNexus 프로젝트에 위해 전방위적인 기술 지원을 제공할 것이다."
+                        ]
+                    },
+                    {
+                        "pic": "superatomlogo.png",
+                        "desc": [
+                            "Superatom은 인터넷 및 Fintech 분야의 세계적으로 유명한 기업이다.Superatom은 어느 유명한 인터넷 상장기업에서 환생했다.그리고 미국, 대만, 동남아 등에서는 현지에서 간판을 가진 Fintech 기업이 다수 존재하고 있고 한 디지털자산거래소 도 포함하다.수많은 양질의 금융자산을 Superatom다 보유하고 있다."
+                        ]
+                    }
+                ]
+            },
+            "mentor": {
+                "title": "지도 위원회",
+                "description": "일반적인 블록체인 프로젝트에서의 컨설턴트의 역할과는 달리, FinNexus는 프로젝트의 최초의 멘토링 위원회(Steering Committee)를 설립했다.위원회 구성원은 블록체인 업계와 모바일 인터넷, 상호 금, 금융, 법률 업종의 전문자로 구성되며, 프로젝트의 이익 보유자로 독립되고 프로젝트 경영 관리자와 중요한 업무 연계나 전문적인 연계가 없다.프로젝트 사무에 대해 독립적인 판단하다.",
+                "list": [
+                    {
+                        "avatar": "jacklu.png",
+                        "name": "여욱군",
+                        "job": "Founder of Wanchain",
+                        "desc": [
+                            "블록체인 업계 리더인 , Factom 연합 설립자, Wanchain의 설립자이자 CEO입니다.2013년에 블록체인 업계에 진출했고 Factom 및 Wanchain을 이끌고 프라이버시 보호, 크로스 프로토콜, POS 등 다양한 기술 혁신을 실현했다."
+                        ]
+                    },
+                    {
+                        "avatar": "scarletxiao.png",
+                        "name": "肖洁",
+                        "job": "SVP of Cheetah Mobile",
+                        "desc": [
+                            "猎豹移动高级副总裁 Superatom董事长，曾在奇虎360科技有限公司担任公关总监，在雅虎中国及百度负责营销及传播工作。2010年10月起担任猎豹移动公司副总裁，并负责业务开发、市场营销和商业产品业务。"
+                        ]
+                    },
+                    {
+                        "avatar": "zhangyiqin.png",
+                        "name": "장익흠",
+                        "job": "FP of River Capital",
+                        "desc": [
+                            "중국천사연합회 종신회원, 100배 투자클럽 회원.과학기술혁신 등의 분야에서 60개가 넘는 투자를 주도했다.인터넷 업계에서는 제품과 시장 운영 경험이 풍부하며 소호콘텐츠부 기술센터장였다.중이동 12580 부회장, 해항그룹 인터넷업무공사 회장."
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

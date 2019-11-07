@@ -35,14 +35,21 @@ class Nav extends React.Component {
         const url = window.location.href
         this.handleScroll()
         window.addEventListener('scroll', this.handleScroll)
+        
         this.setState({
-            localeUrl: getLocaleId() === 'zh' ? common.updateURLParameter(url, 'hl', 'en') : common.updateURLParameter(url, 'hl', 'zh'),
+            // localeUrl: getLocaleId() === 'zh' ? common.updateURLParameter(url, 'hl', 'en') : common.updateURLParameter(url, 'hl', 'zh'),
+            localeUrl: common.updateURLParameter(url, 'hl', getLocaleId()) ,
             isMobile: window.isMobile === true ? window.isMobile : false,
         })
     }
 
     componentWillUnmount () {
         window.removeEventListener('scroll', this.handleScroll)
+    }
+
+    onChangeLang(lang) {
+        window.location.href = common.updateURLParameter(window.location.href, 'hl', lang);
+        window.location.reload;
     }
 
     handleScroll () {
@@ -118,14 +125,21 @@ class Nav extends React.Component {
                 <div>
                     <a title="down" className="nav-down" onClick={e => this.clickButton()}></a>
                     <ul className="nav-links">
-                        <li><a href={localeUrl} className="other-link" rel="noopener noreferrer">
+                        
+                        {/* <li><a href={localeUrl} className="other-link" rel="noopener noreferrer">
                                     <i className="icon iconfont icon-global"></i>
                                     {localeId === 'en' ? 'ZH' : 'EN'}
                             </a>
-                        </li>
+                        </li> */}
+
+                        <li><i className="icon iconfont icon-global"></i><a onClick={e => this.onChangeLang('zh')} >{__('navs.LanZh')}</a></li>
+                        <li><i className="icon iconfont icon-global"></i><a onClick={e => this.onChangeLang('en')}>{__('navs.LanEn')}</a></li>
+                        <li><i className="icon iconfont icon-global"></i><a onClick={e => this.onChangeLang('ko')}>{__('navs.LanKo')}</a></li>
+
                         <li><a href="#home" onClick={e => this.scroll2(0, e)}>{__('navs.home')}</a></li>
                         <li><a href="#team" onClick={e => this.scroll2(3600, e)}>{__('navs.team')}</a></li>
                         <li><a href="#partners" onClick={e => this.scroll2(3200, e)}>{__('navs.partners')}</a></li>
+                        <li><a href="https://medium.com/finnexus" target="_blank">Blog</a></li>
                         <li><a href="/FinNexus_Whitepaper_zh.pdf" target="_blank">{__('navs.whitePaperZh')}</a></li>
                         <li><a href="FinNexus_Whitepaper_en.pdf" target="_blank">{__('navs.whitePaperEn')}</a></li>
                         <li><a href="/ICTO_zh.pdf" target="_blank">{__('navs.ictoZh')}</a></li>
@@ -156,6 +170,7 @@ class Nav extends React.Component {
                             <li><a href="#home" onClick={e => this.scroll(0, e)}>{__('navs.home')}</a></li>
                             <li><a href="#team" onClick={e => this.scroll(3900, e)}>{__('navs.team')}</a></li>
                             <li><a href="#partners" onClick={e => this.scroll(3393, e)}>{__('navs.partners')}</a></li>
+                            <li><a href="https://medium.com/finnexus" target="_blank">Blog</a></li>
                             {/* <li><a href="###">{__('navs.news')}</a></li> */}
                             <li className="nav-sub-wrap">
                                 <a href="###">{__('navs.whitePaper')}<i className="iconfont icon-triangle-down"></i></a>
@@ -173,8 +188,17 @@ class Nav extends React.Component {
                                 </ul>
                             </li>
 
+                            <li className="nav-sub-wrap">
+                                <a href="###">{__('navs.Lan')}<i className="iconfont icon-triangle-down"></i></a>
+                                <ul className="nav-sub">
+                                    <li><a onClick={e => this.onChangeLang('zh')} >{__('navs.LanZh')}</a></li>
+                                    <li><a onClick={e => this.onChangeLang('en')}>{__('navs.LanEn')}</a></li>
+                                    <li><a onClick={e => this.onChangeLang('ko')}>{__('navs.LanKo')}</a></li>
+                                </ul>
+                            </li>
+
                         </ul>
-                        <div className="others">
+                        {/* <div className="others">
                             <a
                                 href={localeUrl}
                                 className="other-link"
@@ -183,7 +207,7 @@ class Nav extends React.Component {
                                 <i className="icon iconfont icon-global"></i>
                                 {localeId === 'en' ? 'ZH' : 'EN'}
                             </a>
-                        </div>
+                        </div> */}
                     </Center>
                 </nav>
             )
