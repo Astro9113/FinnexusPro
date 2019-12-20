@@ -139,6 +139,7 @@ class Nav extends React.Component {
                         <li><a href="#home" onClick={e => this.scroll2(0, e)}>{__('navs.home')}</a></li>
                         <li><a href="#team" onClick={e => this.scroll2(3600, e)}>{__('navs.team')}</a></li>
                         <li><a href="#partners" onClick={e => this.scroll2(3200, e)}>{__('navs.partners')}</a></li>
+                        <li><a href="http://insights.finnexus.io/" target="_blank">Insights</a></li>
                         <li><a href="https://medium.com/finnexus" target="_blank">Blog</a></li>
                         <li><a href="/FinNexus_Whitepaper_zh.pdf" target="_blank">{__('navs.whitePaperZh')}</a></li>
                         <li><a href="FinNexus_Whitepaper_en.pdf" target="_blank">{__('navs.whitePaperEn')}</a></li>
@@ -170,6 +171,7 @@ class Nav extends React.Component {
                             <li><a href="#home" onClick={e => this.scroll(0, e)}>{__('navs.home')}</a></li>
                             <li><a href="#team" onClick={e => this.scroll(3900, e)}>{__('navs.team')}</a></li>
                             <li><a href="#partners" onClick={e => this.scroll(3393, e)}>{__('navs.partners')}</a></li>
+                            <li><a href="http://insights.finnexus.io/" target="_blank">Insights</a></li>
                             <li><a href="https://medium.com/finnexus" target="_blank">Blog</a></li>
                             {/* <li><a href="###">{__('navs.news')}</a></li> */}
                             <li className="nav-sub-wrap">
