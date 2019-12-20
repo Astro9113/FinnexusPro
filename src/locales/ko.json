@@ -18,11 +18,11 @@
     },
     "pages": {
         "home": {
-            "title": "欢迎访问FinNexus官方网站",
-            "keywords": "关键词",
-            "description": "--",
-            "subscribe": "立即订阅",
-            "subscribePlaceholder": "请输入电子邮箱",
+            "title": "Welcome to the official FinNexus website",
+            "keywords": "keywords",
+            "description": "description",
+            "subscribe": "Subscribe",
+            "subscribePlaceholder": "Please enter the email address",
             "slogan": "Finance Evolved",
             "banner": {
                 "title": "FinNexus-Finance Evolved",
@@ -89,19 +89,19 @@
                         ]
                     },
                     {
-                        "avatar": "maikliu.png",
-                        "name": "Maik Liu",
-                        "job": "기술 전문가 ",
-                        "desc": [
-                            "모바일 제품 전문가.국립호미과기대학교 2016년도 치타 모바일 우수 공헌상 수상자.전 치타 모바일 베테랑 제품 감독, 비트루 디지털 화폐 거래소 공동 창립자.모바일 App과 디지털 화폐 업계에서의 경험이 풍부하다."
-                        ]
-                    },
-                    {
                         "avatar": "railytian.png",
                         "name": "Ryan Tian",
                         "job": "그융 전문가",
                         "desc": [
                             "요크대 금융엔지니어링 석사.금융업에 10년간 일했다.유명 증권사 투자은행(IB)부로 근무하며 여러 기업 상장사의 보천 상장을 담당했다.증권 제품의 전 프로세스 전문가로서 재무 및 풍제어에 뛰어나다."
+                        ]
+                    },
+                    {
+                        "avatar": "veer.png",
+                        "name": "Veerender Singh",
+                        "job": "커뮤니티 매니저",
+                        "desc": [
+                            "Veerender Singh 는 항공공학 전공을 졸업했고, 다년간 풍부한 블록체인 커뮤니티 관리 경험을 쌓았다. 그는 Band Protocol, Editor， Raven Protocol 등 많은 블록체인 프로젝트에 참가했다."
                         ]
                     },
                     {
@@ -161,6 +161,28 @@
                         "job": "FP of River Capital",
                         "desc": [
                             "중국천사연합회 종신회원, 100배 투자클럽 회원.과학기술혁신 등의 분야에서 60개가 넘는 투자를 주도했다.인터넷 업계에서는 제품과 시장 운영 경험이 풍부하며 소호콘텐츠부 기술센터장였다.중이동 12580 부회장, 해항그룹 인터넷업무공사 회장."
+                        ]
+                    }
+                ]
+            },
+            "Advisor": {
+                "title": "팀 고문",
+                "description": [""],
+                "list": [
+                    {
+                        "avatar": "nicholas.png",
+                        "name": "Nicholas",
+                        "job": "금융및전략컨설턴트",
+                        "desc": [
+                            "Nicholas J. Krapels는 창업자이자 블록체인 및 금융 전문가, 교육전문가이기도 하며 연구 분야는 혁신통화정책이다.중국업무를 책임지는 총감독으로서 Konstellation에서 중국을 대상으로 글로벌 금융서비스를 제공한다. 그는 또한 동제대학 및 스케마 비즈니스 스쿨에서 상업전략 및 창업에 관한 수업을 가르치고 있다."
+                        ]
+                    },
+                    {
+                        "avatar": "noah.png",
+                        "name": "Noah",
+                        "job": "글로벌 시장 컨설턴트",
+                        "desc": [
+                            "Noah Maizels는 존스 홉킨스 대학교 출신이고, 중국 시장에 대하여 7년 이상의 경험이 있으며, 중국어와 영어에 정통하다. 2011년부터 블록체인 업계에 관심을 가지고 관련 투자에 참가하기 시작했다. 2017년에 정식으로 업계에 가입하고 Wanchain 글로벌 시장 및 커뮤니티 사업을 책임지고 있다. 복잡한 금융 과학기술 제품에 관한 글과 내용 창작에 숙달하다."
                         ]
                     }
                 ]

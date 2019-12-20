@@ -90,19 +90,19 @@
                         ]
                     },
                     {
-                        "avatar": "maikliu.png",
-                        "name": "Maik Liu",
-                        "job": "Technical Specialist",
-                        "desc": [
-                            "Maik graduated from National Formosa University. He is a mobile product specialist and was honored with Cheetah Mobile’s Outstanding Contribution Award. He was former Senior Director of Cheetah Mobile and Co-founder of Bitrue exchange. He also has considerable experience in mobile apps and the crypto industry."
-                        ]
-                    },
-                    {
                         "avatar": "railytian.png",
                         "name": "Ryan Tian",
                         "job": "Financial Specialist",
                         "desc": [
                             "Ryan earned his master’s degree in financial engineering from York University. He has worked in the finance industry for more than 10 years. He worked in investment banking as a senior level CSRC licensed compliance officer for publicly listed companies. His expertise is in  securities products and he specializes in finance and risk control."
+                        ]
+                    },
+                    {
+                        "avatar": "veer.png",
+                        "name": "Veerender Singh",
+                        "job": "Community Manager",
+                        "desc": [
+                            "Veerender Singh  is a graduate in Aeronautical Engineering. He is an experienced community manager and has worked with multiple blockchain projects in the past. He currently works as a Community Manager for Band protocol ，Raven protocl，Editor/BD for blog.goodaudience.com."
                         ]
                     },
                     {
@@ -162,6 +162,29 @@
                         "job": "FP of River Capital",
                         "desc": [
                             "Eason is a founding partner of River Capital, and member of China Youth Angel Investor Leader Association. He has invested over 60 science and technology companies. Has served as the head of product department of Sohu, VP of China Mobile 12580, and president of HNA Group Internet Business."
+                        ]
+                    }
+                ]
+            },
+
+            "Advisor": {
+                "title": "Advisor",
+                "description": [""],
+                "list": [
+                    {
+                        "avatar": "nicholas.png",
+                        "name": "Nicholas",
+                        "job": "Strategy Advisor",
+                        "desc": [
+                            "Nicholas J. Krapels  is a China-based American writer, educator, and entrepreneur. He works in global financial services as China Managing Director at DarcMatter and Blockchain Lead at Konstellation. He teaches graduate courses in business, strategy, & entrepreneurship at Tongji University and SKEMA Business School. His research focuses on innovative monetary policy."
+                        ]
+                    },
+                    {
+                        "avatar": "noah.png",
+                        "name": "Noah",
+                        "job": "Global Marketing consultant",
+                        "desc": [
+                            "Noah Maizels is a Johns Hopkins University graduate, bilingual Mandarin & English marketing professional with more than seven years experience in the China market. He has been a crypto watcher since 2011, and joined the industry in 2017. He specializes in producing easy to read and understand content about complex fintech products."
                         ]
                     }
                 ]
