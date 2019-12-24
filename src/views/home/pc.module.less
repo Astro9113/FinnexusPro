@@ -195,7 +195,6 @@
         }
     }
 
-
     .do-something-dfp {
         height: 700px;
         .title {
@@ -515,7 +514,7 @@
                 .desc {
                     font-size: 12px;
                 }
-                .job{
+                .job {
                     font-size: 10px;
                 }
             }
@@ -540,6 +539,17 @@
                 margin-top: 160px;
             }
         }
+
+        .team-advisor {
+            width: 1200px;
+            float: left;
+            .team-list li {
+                &:nth-of-type(2n) {
+                    margin: 0;
+                }
+            }
+        }
+
         .team-left {
             width: 468px;
             float: left;
@@ -562,7 +572,6 @@
         }
     }
 }
-
 
 html[lang='en'] {
     .component {
