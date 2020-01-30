@@ -1,54 +1,80 @@
 {
     ".zh": {
-        ".public": "public/koot-1571366465640/",
+        ".public": "public/koot-1580398116179/",
         ".entrypoints": {
             "critical": [
-                "public/koot-1571366465640/includes/extract.4.64f841e8f309cabfab31.css",
-                "public/koot-1571366465640/includes/entry.64f841e8f309cabfab31.js"
+                "public/koot-1580398116179/includes/extract.4.6ea11202912f58f54066.css",
+                "public/koot-1580398116179/includes/entry.6ea11202912f58f54066.js"
             ],
             "client": [
-                "public/koot-1571366465640/includes/chunk.1bfb55d3ad152a05b610.js",
-                "public/koot-1571366465640/includes/entry.130bb376be02317dc0c0.js"
+                "public/koot-1580398116179/includes/chunk.b80696abcff04e33257c.js",
+                "public/koot-1580398116179/includes/entry.95d0a2ec54f433bdd20f.js"
             ],
             "__KOOT__CLIENT__RUN__FIRST__": [
-                "public/koot-1571366465640/includes/chunk.1bfb55d3ad152a05b610.js",
-                "public/koot-1571366465640/includes/entry.2abb74dc17e31ed51b1f.js"
+                "public/koot-1580398116179/includes/chunk.b80696abcff04e33257c.js",
+                "public/koot-1580398116179/includes/entry.80173783e48932d345cb.js"
             ]
         },
         ".files": {
-            "commons.js": "public/koot-1571366465640/includes/chunk.1bfb55d3ad152a05b610.js",
-            "PageHome.js": "public/koot-1571366465640/includes/chunk.e92fc5216a6a8c7f63a0.js",
-            "__KOOT__CLIENT__RUN__FIRST__.js": "public/koot-1571366465640/includes/entry.2abb74dc17e31ed51b1f.js",
-            "client.js": "public/koot-1571366465640/includes/entry.130bb376be02317dc0c0.js",
-            "critical.css": "public/koot-1571366465640/includes/extract.4.64f841e8f309cabfab31.css",
-            "critical.js": "public/koot-1571366465640/includes/entry.64f841e8f309cabfab31.js",
-            "__KOOT__EXTRACT__CSS__.css": "public/koot-1571366465640/includes/extract.all.3723a3d107dbed9ba8221f5ab21d3ac4.css"
+            "commons.js": "public/koot-1580398116179/includes/chunk.b80696abcff04e33257c.js",
+            "PageHome.js": "public/koot-1580398116179/includes/chunk.1045c1d7d6857d4c202c.js",
+            "__KOOT__CLIENT__RUN__FIRST__.js": "public/koot-1580398116179/includes/entry.80173783e48932d345cb.js",
+            "client.js": "public/koot-1580398116179/includes/entry.95d0a2ec54f433bdd20f.js",
+            "critical.css": "public/koot-1580398116179/includes/extract.4.6ea11202912f58f54066.css",
+            "critical.js": "public/koot-1580398116179/includes/entry.6ea11202912f58f54066.js",
+            "__KOOT__EXTRACT__CSS__.css": "public/koot-1580398116179/includes/extract.all.75a31b0195a360ba8d84cd7a1fcbde5f.css"
         }
     },
     ".en": {
-        ".public": "public/koot-1571366465640/",
+        ".public": "public/koot-1580398116179/",
         ".entrypoints": {
             "critical": [
-                "public/koot-1571366465640/includes/extract.4.64f841e8f309cabfab31.css",
-                "public/koot-1571366465640/includes/entry.64f841e8f309cabfab31.js"
+                "public/koot-1580398116179/includes/extract.4.6ea11202912f58f54066.css",
+                "public/koot-1580398116179/includes/entry.6ea11202912f58f54066.js"
             ],
             "client": [
-                "public/koot-1571366465640/includes/chunk.1bfb55d3ad152a05b610.js",
-                "public/koot-1571366465640/includes/entry.5d8874226f919f22cf20.js"
+                "public/koot-1580398116179/includes/chunk.b80696abcff04e33257c.js",
+                "public/koot-1580398116179/includes/entry.f3e969c07b0b1c4a65cb.js"
             ],
             "__KOOT__CLIENT__RUN__FIRST__": [
-                "public/koot-1571366465640/includes/chunk.1bfb55d3ad152a05b610.js",
-                "public/koot-1571366465640/includes/entry.2abb74dc17e31ed51b1f.js"
+                "public/koot-1580398116179/includes/chunk.b80696abcff04e33257c.js",
+                "public/koot-1580398116179/includes/entry.80173783e48932d345cb.js"
             ]
         },
         ".files": {
-            "commons.js": "public/koot-1571366465640/includes/chunk.1bfb55d3ad152a05b610.js",
-            "PageHome.js": "public/koot-1571366465640/includes/chunk.c5599b491ca9c869fec1.js",
-            "__KOOT__CLIENT__RUN__FIRST__.js": "public/koot-1571366465640/includes/entry.2abb74dc17e31ed51b1f.js",
-            "client.js": "public/koot-1571366465640/includes/entry.5d8874226f919f22cf20.js",
-            "critical.css": "public/koot-1571366465640/includes/extract.4.64f841e8f309cabfab31.css",
-            "critical.js": "public/koot-1571366465640/includes/entry.64f841e8f309cabfab31.js",
-            "__KOOT__EXTRACT__CSS__.css": "public/koot-1571366465640/includes/extract.all.3723a3d107dbed9ba8221f5ab21d3ac4.css"
+            "commons.js": "public/koot-1580398116179/includes/chunk.b80696abcff04e33257c.js",
+            "PageHome.js": "public/koot-1580398116179/includes/chunk.dd55db0bc3a243575f15.js",
+            "__KOOT__CLIENT__RUN__FIRST__.js": "public/koot-1580398116179/includes/entry.80173783e48932d345cb.js",
+            "client.js": "public/koot-1580398116179/includes/entry.f3e969c07b0b1c4a65cb.js",
+            "critical.css": "public/koot-1580398116179/includes/extract.4.6ea11202912f58f54066.css",
+            "critical.js": "public/koot-1580398116179/includes/entry.6ea11202912f58f54066.js",
+            "__KOOT__EXTRACT__CSS__.css": "public/koot-1580398116179/includes/extract.all.75a31b0195a360ba8d84cd7a1fcbde5f.css"
+        }
+    },
+    ".ko": {
+        ".public": "public/koot-1580398116179/",
+        ".entrypoints": {
+            "critical": [
+                "public/koot-1580398116179/includes/extract.4.6ea11202912f58f54066.css",
+                "public/koot-1580398116179/includes/entry.6ea11202912f58f54066.js"
+            ],
+            "client": [
+                "public/koot-1580398116179/includes/chunk.b80696abcff04e33257c.js",
+                "public/koot-1580398116179/includes/entry.49eb623947409d27a66a.js"
+            ],
+            "__KOOT__CLIENT__RUN__FIRST__": [
+                "public/koot-1580398116179/includes/chunk.b80696abcff04e33257c.js",
+                "public/koot-1580398116179/includes/entry.80173783e48932d345cb.js"
+            ]
+        },
+        ".files": {
+            "commons.js": "public/koot-1580398116179/includes/chunk.b80696abcff04e33257c.js",
+            "PageHome.js": "public/koot-1580398116179/includes/chunk.c589193751528c70311c.js",
+            "__KOOT__CLIENT__RUN__FIRST__.js": "public/koot-1580398116179/includes/entry.80173783e48932d345cb.js",
+            "client.js": "public/koot-1580398116179/includes/entry.49eb623947409d27a66a.js",
+            "critical.css": "public/koot-1580398116179/includes/extract.4.6ea11202912f58f54066.css",
+            "critical.js": "public/koot-1580398116179/includes/entry.6ea11202912f58f54066.js",
+            "__KOOT__EXTRACT__CSS__.css": "public/koot-1580398116179/includes/extract.all.75a31b0195a360ba8d84cd7a1fcbde5f.css"
         }
     }
 }

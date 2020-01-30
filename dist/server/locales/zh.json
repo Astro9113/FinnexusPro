@@ -7,7 +7,14 @@
         "news": "新闻",
         "whitePaper": "白皮书",
         "whitePaperZh": "白皮书 (中文)",
-        "whitePaperEn": "白皮书 (英文)"
+        "whitePaperEn": "白皮书 (英文)",
+        "icto": "ICTO",
+        "ictoZh": "ICTO (中文)",
+        "ictoEn": "ICTO (英文)",
+        "Lan": "Lang",
+        "LanZh": "Zh",
+        "LanEn": "En",
+        "LanKo": "Ko"
     },
     "pages": {
         "home": {
@@ -19,7 +26,7 @@
             "slogan": "Finance Evolved",
             "banner": {
                 "title": "FinNexus-Finance Evolved",
-                "by": "Bridging decentralized and traditional Finance"
+                "by": "Bridging decentralized and traditional finance"
             },
             "why": {
                 "title": "为什么需要 <span>${name}</span>",
@@ -28,17 +35,20 @@
                     {
                         "title": "不知道投资什么",
                         "desc": "投资多样性不足",
-                        "clazz": "one"
+                        "clazz": "one",
+                        "class_div": "div1"
                     },
                     {
                         "title": "不知道为什么投资",
                         "desc": "投资的价值基础不足",
-                        "clazz": "two"
+                        "clazz": "two",
+                        "class_div": "div2"
                     },
                     {
                         "title": "不知道怎么投资",
                         "desc": "投资的价值便捷性不足",
-                        "clazz": "three"
+                        "clazz": "three",
+                        "class_div": "div3"
                     }
                 ]
             },
@@ -79,19 +89,19 @@
                         ]
                     },
                     {
-                        "avatar": "maikliu.png",
-                        "name": "Maik Liu",
-                        "job": "技术专家",
-                        "desc": [
-                            "移动产品专家，国立虎尾科技大学，2016猎豹移动优秀贡献奖获得者；前猎豹移动资深产品总监，Bitrue数字货币交易所联合创始人；在移动App和数字货币行业经验丰富。"
-                        ]
-                    },
-                    {
                         "avatar": "railytian.png",
                         "name": "Ryan Tian",
                         "job": "金融专家",
                         "desc": [
                             "约克大学金融工程硕士，金融从业10余年，曾供职于任知名证券公司投资银行部，负责多家企业上市公司的保荐上市工作。证券产品的全流程专家，擅长财务及风控。"
+                        ]
+                    },
+                    {
+                        "avatar": "veer.png",
+                        "name": "Veerender Singh",
+                        "job": "海外社区经理",
+                        "desc": [
+                            "Veerender Singh 毕业于航空工程专业，多年区块链社区管理经验，曾经服务于 Band Protocol, Editor, Raven Protocol 等多个区块链项目。"
                         ]
                     },
                     {
@@ -114,7 +124,7 @@
                     {
                         "pic": "wanchainlogo.png",
                         "desc": [
-                            "Wanchain区块链行业的技术领军项目，Wanchain通过在隐私保护，跨链协议，星系POS共识等公链技术创新积累了强大的技术力量。尤其是Wanchain跨链协议将在DFP的复杂资产应用场景中发挥重要的底层协议作用。Wanchain将在公链技术层面为DFP项目提供全方位的技术支持。"
+                            "Wanchain区块链行业的技术领军项目，Wanchain通过在隐私保护，跨链协议，星系POS共识等公链技术创新积累了强大的技术力量。尤其是Wanchain跨链协议将在FinNexus的复杂资产应用场景中发挥重要的底层协议作用。Wanchain将在公链技术层面为DFP项目提供全方位的技术支持。"
                         ]
                     },
                     {
@@ -151,6 +161,29 @@
                         "job": "大河资本创始合伙人",
                         "desc": [
                             "中国天使联合会终身会员，百倍投资俱乐部成员，在科技创新等领域主导投资超过60个项目。在互联网行业拥有丰富的产品技术和市场运营经验，历任搜狐内容部技术中心负责人、中移动12580副总裁、海航集团互联网业务公司总裁。"
+                        ]
+                    }
+                ]
+            },
+
+            "Advisor": {
+                "title": "团队顾问",
+                "description": [""],
+                "list": [
+                    {
+                        "avatar": "nicholas.png",
+                        "name": "Nicholas Krapels",
+                        "job": "金融战略顾问",
+                        "desc": [
+                            "Nicholas J. Krapels 是一位创业者、区块链及金融专家、教育专家，研究领域为创新货币政策。作为负责中国业务的总监服务于Konstellation为中国提供全球金融服务。同时他在同济大学及SKEMA商学院教授商业战略及创业的相关课程。"
+                        ]
+                    },
+                    {
+                        "avatar": "noah.png",
+                        "name": "Noah Maizels",
+                        "job": "全球市场顾问",
+                        "desc": [
+                            "Noah Maizels毕业于约翰霍普金斯大学，超过7年的中国市场经验，精通中英文。2011年开始关注区块链行业并参与相关投资。2017年正式加入行业，负责Wanchain全球市场及社区工作。擅长于复杂金融科技产品文章和内容的创作。"
                         ]
                     }
                 ]
