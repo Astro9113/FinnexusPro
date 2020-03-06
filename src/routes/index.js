@@ -32,16 +32,16 @@ export default {
         }
     },
 
-    // childRoutes: [
-    //     {
-    //         path: 'pdf',
-    //         getComponent: (nextState, cb) => {
-    //             import(
-    //                 '@views/MyPdfViewer'
-    //             ).then(module => {
-    //                 if (routeCheck(nextState)) cb(null, module.default);
-    //             });
-    //         }
-    //     }
-    // ]
+    childRoutes: [
+        {
+            path: 'icto',
+            getComponent: (nextState, cb) => {
+                import(
+                    '@views/icto'
+                ).then(module => {
+                    if (routeCheck(nextState)) cb(null, module.default);
+                });
+            }
+        }
+    ]
 };

@@ -140,8 +140,10 @@ class Nav extends React.Component {
                         <li><a href=" https://www.docs.finnexus.io/" target="_blank">Resources</a></li>
                         <li><a href="https://finnexus.github.io/Pdfs/FinNexus_Whitepaper_zh.pdf" target="_blank">{__('navs.whitePaperZh')}</a></li>
                         <li><a href="https://finnexus.github.io/Pdfs/FinNexus_Whitepaper_en.pdf" target="_blank">{__('navs.whitePaperEn')}</a></li>
-                        <li><a href="https://finnexus.github.io/Pdfs/ICTO_zh.pdf" target="_blank">{__('navs.ictoZh')}</a></li>
-                        <li><a href="https://finnexus.github.io/Pdfs/ICTO_en.pdf" target="_blank">{__('navs.ictoEn')}</a></li>
+                        <li><a href="/icto" target="_blank">{__('navs.ictoZh')}</a></li>
+                        <li><a href="/icto" target="_blank">{__('navs.ictoEn')}</a></li>
+                        {/* <li><a href="https://finnexus.github.io/Pdfs/ICTO_zh.pdf" target="_blank">{__('navs.ictoZh')}</a></li>
+                        <li><a href="https://finnexus.github.io/Pdfs/ICTO_en.pdf" target="_blank">{__('navs.ictoEn')}</a></li> */}
 
                         <li><i className="icon iconfont icon-global"></i><a onClick={e => this.onChangeLang('zh')} >{__('navs.LanZh')}</a></li>
                         <li><i className="icon iconfont icon-global"></i><a onClick={e => this.onChangeLang('en')}>{__('navs.LanEn')}</a></li>
@@ -187,8 +189,10 @@ class Nav extends React.Component {
                             <li className="nav-sub-wrap">
                                 <a href="###">{__('navs.icto')}<i className="iconfont icon-triangle-down"></i></a>
                                 <ul className="nav-sub">
-                                    <li><a href="https://finnexus.github.io/Pdfs/ICTO_zh.pdf" target="_blank">{__('navs.ictoZh')}</a></li>
-                                    <li><a href="https://finnexus.github.io/Pdfs/ICTO_en.pdf" target="_blank">{__('navs.ictoEn')}</a></li>
+                                <li><a href="/icto" target="_blank">{__('navs.ictoZh')}</a></li>
+                                    <li><a href="/icto" target="_blank">{__('navs.ictoEn')}</a></li>
+                                    {/* <li><a href="https://finnexus.github.io/Pdfs/ICTO_zh.pdf" target="_blank">{__('navs.ictoZh')}</a></li>
+                                    <li><a href="https://finnexus.github.io/Pdfs/ICTO_en.pdf" target="_blank">{__('navs.ictoEn')}</a></li> */}
                                 </ul>
                             </li>
 
