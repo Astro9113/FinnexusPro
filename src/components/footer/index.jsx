@@ -16,23 +16,23 @@ class Footer extends React.Component {
             isMobile: true,
         }
 
-        
+
         this.handlerSubscribe = this.handlerSubscribe.bind(this)
 
-    }   
+    }
 
-    componentDidMount () {      
+    componentDidMount() {
         this.setState({
             isMobile: window.isMobile === true ? window.isMobile : false,
         })
     }
 
-    handlerSubscribe () {
+    handlerSubscribe() {
         window.open('https://mailchi.mp/9c15712d2bbf/finnexus-newsletter')
     }
-    
 
-    render () {
+
+    render() {
 
         const { isMobile } = this.state
 
@@ -45,7 +45,7 @@ class Footer extends React.Component {
         })
 
         return (
-                
+
             <footer className={footerClassNames}>
                 <section className={fooCls}>
                     <Center className="wrapper">
@@ -55,7 +55,7 @@ class Footer extends React.Component {
                             <li><a href="https://twitter.com/fin_nexus/" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a></li>
                             <li><a href="https://www.facebook.com/FinNexus/" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a></li>
                             <li><a href="https://medium.com/finnexus/" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium"></i></a></li>
-                            <li><a className="wechat-wrap" href="javascript:;" rel="noopener noreferrer">
+                            <li><a className="wechat-wrap" rel="noopener noreferrer">
                                 <i className="fa fa-weixin"></i>
                                 <div className="wechat-pop"></div>
                             </a></li>
@@ -66,7 +66,7 @@ class Footer extends React.Component {
                             <button>{__('pages.home.subscribe')}</button>
                         </div>
                     </Center>
-                </section> 
+                </section>
             </footer>
         )
     }

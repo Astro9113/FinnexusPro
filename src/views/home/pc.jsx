@@ -60,7 +60,7 @@ class HomePc extends React.Component {
                     <section className="banner">
                         <Center className="wrapper">
                             <div className="text">
-                                <h3>{__('pages.home.banner.title')}</h3>
+                                <a href="https://www.insights.finnexus.io/icto.html" target="_blank"><h3>{__('pages.home.banner.title')}</h3></a>
                                 <p>{__('pages.home.banner.by')}</p>
                             </div>
                         </Center>
@@ -328,15 +328,15 @@ class HomePc extends React.Component {
                                                                     itemDesc,
                                                                     i
                                                                 ) => (
-                                                                    <React.Fragment
-                                                                        key={i}
-                                                                    >
-                                                                        {
-                                                                            itemDesc
-                                                                        }
-                                                                        <br />
-                                                                    </React.Fragment>
-                                                                )
+                                                                        <React.Fragment
+                                                                            key={i}
+                                                                        >
+                                                                            {
+                                                                                itemDesc
+                                                                            }
+                                                                            <br />
+                                                                        </React.Fragment>
+                                                                    )
                                                             )}
                                                         </p>
                                                     </li>
