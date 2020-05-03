@@ -24,26 +24,26 @@ class Nav extends React.Component {
         this.scroll = this.scroll.bind(this)
     }
 
-    componentWillMount () {
+    componentWillMount() {
         this.setState({
             localeId: getLocaleId()
         })
     }
 
-    componentDidMount () {
+    componentDidMount() {
 
         const url = window.location.href
         this.handleScroll()
         window.addEventListener('scroll', this.handleScroll)
-        
+
         this.setState({
             // localeUrl: getLocaleId() === 'zh' ? common.updateURLParameter(url, 'hl', 'en') : common.updateURLParameter(url, 'hl', 'zh'),
-            localeUrl: common.updateURLParameter(url, 'hl', getLocaleId()) ,
+            localeUrl: common.updateURLParameter(url, 'hl', getLocaleId()),
             isMobile: window.isMobile === true ? window.isMobile : false,
         })
     }
 
-    componentWillUnmount () {
+    componentWillUnmount() {
         window.removeEventListener('scroll', this.handleScroll)
     }
 
@@ -52,7 +52,7 @@ class Nav extends React.Component {
         window.location.reload;
     }
 
-    handleScroll () {
+    handleScroll() {
         // TODO
         const scrollTop = document.documentElement.scrollTop || document.body.scrollTop
         if (scrollTop > 300) {
@@ -62,7 +62,7 @@ class Nav extends React.Component {
         }
     }
 
-    scroll (top, e) {
+    scroll(top, e) {
         e.preventDefault()
         window.scrollTo({
             top,
@@ -70,24 +70,24 @@ class Nav extends React.Component {
         })
     }
 
-    scroll2 (top, e) {
-    
+    scroll2(top, e) {
+
         e.preventDefault()
         window.scrollTo({
             top,
             behavior: 'smooth'
         })
 
-        this.setState({ 
+        this.setState({
             isShowButton: !this.state.isShowButton,
-         })
+        })
     }
 
     clickButton() {
-       
-        this.setState({ 
+
+        this.setState({
             isShowButton: !this.state.isShowButton,
-         })
+        })
 
         //  if (this.state.isShowButton == false) {
         //     setTimeout(()=> {
@@ -96,18 +96,18 @@ class Nav extends React.Component {
         //          })
         //      }, 3000)
         //  }
-         
+
     }
 
     clickButton2() {
-       
-        this.setState({ 
+
+        this.setState({
             isShowButton: false,
-         })
+        })
 
     }
 
-    render () {
+    render() {
         const { className } = this.props
         const { localeId, localeUrl, isMobile, isShowButton } = this.state
         const navClassNames = classNames({
@@ -120,12 +120,12 @@ class Nav extends React.Component {
             navDiv = (
                 <a title="down" className="nav-down" onClick={e => this.clickButton()}></a>
             )
-            } else {
+        } else {
             navDiv = (
                 <div>
                     <a title="down" className="nav-down" onClick={e => this.clickButton()}></a>
                     <ul className="nav-links">
-                        
+
                         {/* <li><a href={localeUrl} className="other-link" rel="noopener noreferrer">
                                     <i className="icon iconfont icon-global"></i>
                                     {localeId === 'en' ? 'ZH' : 'EN'}
@@ -138,10 +138,12 @@ class Nav extends React.Component {
                         <li><a href="http://insights.finnexus.io/" target="_blank">Insights</a></li>
                         <li><a href="https://medium.com/finnexus" target="_blank">Blog</a></li>
                         <li><a href=" https://www.docs.finnexus.io/" target="_blank">Resources</a></li>
+                        <li><a href="https://www.icto.finnexus.io/" target="_blank">ICTO</a></li>
                         <li><a href="https://finnexus.github.io/Pdfs/FinNexus_Whitepaper_zh.pdf" target="_blank">{__('navs.whitePaperZh')}</a></li>
                         <li><a href="https://finnexus.github.io/Pdfs/FinNexus_Whitepaper_en.pdf" target="_blank">{__('navs.whitePaperEn')}</a></li>
-                        <li><a href="https://finnexus.github.io/Pdfs/ICTO_zh.pdf" target="_blank">{__('navs.ictoZh')}</a></li>
-                        <li><a href="https://finnexus.github.io/Pdfs/ICTO_en.pdf" target="_blank">{__('navs.ictoEn')}</a></li>
+
+                        {/* <li><a href="https://finnexus.github.io/Pdfs/ICTO_zh.pdf" target="_blank">{__('navs.ictoZh')}</a></li>
+                        <li><a href="https://finnexus.github.io/Pdfs/ICTO_en.pdf" target="_blank">{__('navs.ictoEn')}</a></li> */}
 
                         <li><i className="icon iconfont icon-global"></i><a onClick={e => this.onChangeLang('zh')} >{__('navs.LanZh')}</a></li>
                         <li><i className="icon iconfont icon-global"></i><a onClick={e => this.onChangeLang('en')}>{__('navs.LanEn')}</a></li>
@@ -149,22 +151,22 @@ class Nav extends React.Component {
                     </ul>
                 </div>
             )
-            }
+        }
 
         if (isMobile) {
             return (
                 <nav className={navClassNames}>
                     <div className="div-down">
-                    <a className="logo" onClick={e => this.clickButton2()}></a>
-                    {navDiv}                 
+                        <a className="logo" onClick={e => this.clickButton2()}></a>
+                        {navDiv}
                     </div>
-                    
+
                 </nav>
             )
         } else {
             return (
                 <nav className={navClassNames}>
-    
+
                     <h1 className="title-hidden">{__('pages.home.title')}</h1>
                     <Center className="wrapper">
                         <a href="/" title="home" className="logo"></a>
@@ -175,7 +177,7 @@ class Nav extends React.Component {
                             <li><a href="http://insights.finnexus.io/" target="_blank">Insights</a></li>
                             <li><a href="https://medium.com/finnexus" target="_blank">Blog</a></li>
                             <li><a href=" https://www.docs.finnexus.io/" target="_blank">Resources</a></li>
-                            {/* <li><a href="###">{__('navs.news')}</a></li> */}
+                            <li><a href="https://www.icto.finnexus.io/" target="_blank">ICTO</a></li>
                             <li className="nav-sub-wrap">
                                 <a href="###">{__('navs.whitePaper')}<i className="iconfont icon-triangle-down"></i></a>
                                 <ul className="nav-sub">
@@ -184,13 +186,13 @@ class Nav extends React.Component {
                                 </ul>
                             </li>
 
-                            <li className="nav-sub-wrap">
+                            {/* <li className="nav-sub-wrap">
                                 <a href="###">{__('navs.icto')}<i className="iconfont icon-triangle-down"></i></a>
                                 <ul className="nav-sub">
                                     <li><a href="https://finnexus.github.io/Pdfs/ICTO_zh.pdf" target="_blank">{__('navs.ictoZh')}</a></li>
                                     <li><a href="https://finnexus.github.io/Pdfs/ICTO_en.pdf" target="_blank">{__('navs.ictoEn')}</a></li>
                                 </ul>
-                            </li>
+                            </li> */}
 
                             <li className="nav-sub-wrap">
                                 <a href="###">{__('navs.Lan')}<i className="iconfont icon-triangle-down"></i></a>
