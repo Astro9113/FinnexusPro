@@ -1,80 +1,80 @@
 {
     ".zh": {
-        ".public": "public/koot-1580398116179/",
+        ".public": "public/koot-1588482939275/",
         ".entrypoints": {
             "critical": [
-                "public/koot-1580398116179/includes/extract.4.6ea11202912f58f54066.css",
-                "public/koot-1580398116179/includes/entry.6ea11202912f58f54066.js"
+                "public/koot-1588482939275/includes/extract.4.6ea11202912f58f54066.css",
+                "public/koot-1588482939275/includes/entry.6ea11202912f58f54066.js"
             ],
             "client": [
-                "public/koot-1580398116179/includes/chunk.b80696abcff04e33257c.js",
-                "public/koot-1580398116179/includes/entry.95d0a2ec54f433bdd20f.js"
+                "public/koot-1588482939275/includes/chunk.899eec6e1de64a42d18d.js",
+                "public/koot-1588482939275/includes/entry.df561a32c15e4dcaf943.js"
             ],
             "__KOOT__CLIENT__RUN__FIRST__": [
-                "public/koot-1580398116179/includes/chunk.b80696abcff04e33257c.js",
-                "public/koot-1580398116179/includes/entry.80173783e48932d345cb.js"
+                "public/koot-1588482939275/includes/chunk.899eec6e1de64a42d18d.js",
+                "public/koot-1588482939275/includes/entry.6f5efc7c2454697ed1ed.js"
             ]
         },
         ".files": {
-            "commons.js": "public/koot-1580398116179/includes/chunk.b80696abcff04e33257c.js",
-            "PageHome.js": "public/koot-1580398116179/includes/chunk.1045c1d7d6857d4c202c.js",
-            "__KOOT__CLIENT__RUN__FIRST__.js": "public/koot-1580398116179/includes/entry.80173783e48932d345cb.js",
-            "client.js": "public/koot-1580398116179/includes/entry.95d0a2ec54f433bdd20f.js",
-            "critical.css": "public/koot-1580398116179/includes/extract.4.6ea11202912f58f54066.css",
-            "critical.js": "public/koot-1580398116179/includes/entry.6ea11202912f58f54066.js",
-            "__KOOT__EXTRACT__CSS__.css": "public/koot-1580398116179/includes/extract.all.75a31b0195a360ba8d84cd7a1fcbde5f.css"
+            "commons.js": "public/koot-1588482939275/includes/chunk.899eec6e1de64a42d18d.js",
+            "PageHome.js": "public/koot-1588482939275/includes/chunk.27f2ebd6e9b50d11f579.js",
+            "__KOOT__CLIENT__RUN__FIRST__.js": "public/koot-1588482939275/includes/entry.6f5efc7c2454697ed1ed.js",
+            "client.js": "public/koot-1588482939275/includes/entry.df561a32c15e4dcaf943.js",
+            "critical.css": "public/koot-1588482939275/includes/extract.4.6ea11202912f58f54066.css",
+            "critical.js": "public/koot-1588482939275/includes/entry.6ea11202912f58f54066.js",
+            "__KOOT__EXTRACT__CSS__.css": "public/koot-1588482939275/includes/extract.all.75a31b0195a360ba8d84cd7a1fcbde5f.css"
         }
     },
     ".en": {
-        ".public": "public/koot-1580398116179/",
+        ".public": "public/koot-1588482939275/",
         ".entrypoints": {
             "critical": [
-                "public/koot-1580398116179/includes/extract.4.6ea11202912f58f54066.css",
-                "public/koot-1580398116179/includes/entry.6ea11202912f58f54066.js"
+                "public/koot-1588482939275/includes/extract.4.6ea11202912f58f54066.css",
+                "public/koot-1588482939275/includes/entry.6ea11202912f58f54066.js"
             ],
             "client": [
-                "public/koot-1580398116179/includes/chunk.b80696abcff04e33257c.js",
-                "public/koot-1580398116179/includes/entry.f3e969c07b0b1c4a65cb.js"
+                "public/koot-1588482939275/includes/chunk.899eec6e1de64a42d18d.js",
+                "public/koot-1588482939275/includes/entry.3a894f84b0c9fffd7ad6.js"
             ],
             "__KOOT__CLIENT__RUN__FIRST__": [
-                "public/koot-1580398116179/includes/chunk.b80696abcff04e33257c.js",
-                "public/koot-1580398116179/includes/entry.80173783e48932d345cb.js"
+                "public/koot-1588482939275/includes/chunk.899eec6e1de64a42d18d.js",
+                "public/koot-1588482939275/includes/entry.6f5efc7c2454697ed1ed.js"
             ]
         },
         ".files": {
-            "commons.js": "public/koot-1580398116179/includes/chunk.b80696abcff04e33257c.js",
-            "PageHome.js": "public/koot-1580398116179/includes/chunk.dd55db0bc3a243575f15.js",
-            "__KOOT__CLIENT__RUN__FIRST__.js": "public/koot-1580398116179/includes/entry.80173783e48932d345cb.js",
-            "client.js": "public/koot-1580398116179/includes/entry.f3e969c07b0b1c4a65cb.js",
-            "critical.css": "public/koot-1580398116179/includes/extract.4.6ea11202912f58f54066.css",
-            "critical.js": "public/koot-1580398116179/includes/entry.6ea11202912f58f54066.js",
-            "__KOOT__EXTRACT__CSS__.css": "public/koot-1580398116179/includes/extract.all.75a31b0195a360ba8d84cd7a1fcbde5f.css"
+            "commons.js": "public/koot-1588482939275/includes/chunk.899eec6e1de64a42d18d.js",
+            "PageHome.js": "public/koot-1588482939275/includes/chunk.3f25ae97c186ff2f97d3.js",
+            "__KOOT__CLIENT__RUN__FIRST__.js": "public/koot-1588482939275/includes/entry.6f5efc7c2454697ed1ed.js",
+            "client.js": "public/koot-1588482939275/includes/entry.3a894f84b0c9fffd7ad6.js",
+            "critical.css": "public/koot-1588482939275/includes/extract.4.6ea11202912f58f54066.css",
+            "critical.js": "public/koot-1588482939275/includes/entry.6ea11202912f58f54066.js",
+            "__KOOT__EXTRACT__CSS__.css": "public/koot-1588482939275/includes/extract.all.75a31b0195a360ba8d84cd7a1fcbde5f.css"
         }
     },
     ".ko": {
-        ".public": "public/koot-1580398116179/",
+        ".public": "public/koot-1588482939275/",
         ".entrypoints": {
             "critical": [
-                "public/koot-1580398116179/includes/extract.4.6ea11202912f58f54066.css",
-                "public/koot-1580398116179/includes/entry.6ea11202912f58f54066.js"
+                "public/koot-1588482939275/includes/extract.4.6ea11202912f58f54066.css",
+                "public/koot-1588482939275/includes/entry.6ea11202912f58f54066.js"
             ],
             "client": [
-                "public/koot-1580398116179/includes/chunk.b80696abcff04e33257c.js",
-                "public/koot-1580398116179/includes/entry.49eb623947409d27a66a.js"
+                "public/koot-1588482939275/includes/chunk.899eec6e1de64a42d18d.js",
+                "public/koot-1588482939275/includes/entry.5a198518fe8e982df676.js"
             ],
             "__KOOT__CLIENT__RUN__FIRST__": [
-                "public/koot-1580398116179/includes/chunk.b80696abcff04e33257c.js",
-                "public/koot-1580398116179/includes/entry.80173783e48932d345cb.js"
+                "public/koot-1588482939275/includes/chunk.899eec6e1de64a42d18d.js",
+                "public/koot-1588482939275/includes/entry.6f5efc7c2454697ed1ed.js"
             ]
         },
         ".files": {
-            "commons.js": "public/koot-1580398116179/includes/chunk.b80696abcff04e33257c.js",
-            "PageHome.js": "public/koot-1580398116179/includes/chunk.c589193751528c70311c.js",
-            "__KOOT__CLIENT__RUN__FIRST__.js": "public/koot-1580398116179/includes/entry.80173783e48932d345cb.js",
-            "client.js": "public/koot-1580398116179/includes/entry.49eb623947409d27a66a.js",
-            "critical.css": "public/koot-1580398116179/includes/extract.4.6ea11202912f58f54066.css",
-            "critical.js": "public/koot-1580398116179/includes/entry.6ea11202912f58f54066.js",
-            "__KOOT__EXTRACT__CSS__.css": "public/koot-1580398116179/includes/extract.all.75a31b0195a360ba8d84cd7a1fcbde5f.css"
+            "commons.js": "public/koot-1588482939275/includes/chunk.899eec6e1de64a42d18d.js",
+            "PageHome.js": "public/koot-1588482939275/includes/chunk.2866d5ec95f29cc58a9c.js",
+            "__KOOT__CLIENT__RUN__FIRST__.js": "public/koot-1588482939275/includes/entry.6f5efc7c2454697ed1ed.js",
+            "client.js": "public/koot-1588482939275/includes/entry.5a198518fe8e982df676.js",
+            "critical.css": "public/koot-1588482939275/includes/extract.4.6ea11202912f58f54066.css",
+            "critical.js": "public/koot-1588482939275/includes/entry.6ea11202912f58f54066.js",
+            "__KOOT__EXTRACT__CSS__.css": "public/koot-1588482939275/includes/extract.all.75a31b0195a360ba8d84cd7a1fcbde5f.css"
         }
     }
 }

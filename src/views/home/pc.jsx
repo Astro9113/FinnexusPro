@@ -329,15 +329,15 @@ class HomePc extends React.Component {
                                                                     itemDesc,
                                                                     i
                                                                 ) => (
-                                                                    <React.Fragment
-                                                                        key={i}
-                                                                    >
-                                                                        {
-                                                                            itemDesc
-                                                                        }
-                                                                        <br />
-                                                                    </React.Fragment>
-                                                                )
+                                                                        <React.Fragment
+                                                                            key={i}
+                                                                        >
+                                                                            {
+                                                                                itemDesc
+                                                                            }
+                                                                            <br />
+                                                                        </React.Fragment>
+                                                                    )
                                                             )}
                                                         </p>
                                                     </li>
