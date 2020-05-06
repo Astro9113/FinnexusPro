@@ -60,8 +60,10 @@ class HomePc extends React.Component {
                     <section className="banner">
                         <Center className="wrapper">
                             <div className="text">
+                            <a href="https://www.icto.finnexus.io/" target="_blank">
                                 <h3>{__('pages.home.banner.title')}</h3>
                                 <h3>{__('pages.home.banner.title2')}</h3>
+                            </a>                                
                                 <p>{__('pages.home.banner.by')}</p>
                             </div>
                         </Center>
