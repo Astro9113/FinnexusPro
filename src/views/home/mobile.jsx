@@ -136,7 +136,17 @@ class HomeMobile extends React.Component {
                         <Center className="wrapper">
                             <div className="text">
                                 <h3>{__('pages.home.banner.title')}</h3>
-                                <p>{__('pages.home.banner.by')}</p>
+                                <h3 style={{ 'margin-top': 0 }}>
+                                    {__('pages.home.banner.title2')}
+                                </h3>
+                                <p
+                                    style={{
+                                        'text-align': 'left',
+                                        'margin-left': '20px'
+                                    }}
+                                >
+                                    {__('pages.home.banner.by')}
+                                </p>
                             </div>
                         </Center>
                     </section>
