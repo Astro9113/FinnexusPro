@@ -135,20 +135,18 @@ class HomeMobile extends React.Component {
                     <section className="banner-mobile">
                         <Center className="wrapper">
                             <div className="text">
-                            <a href="https://www.icto.finnexus.io/" target="_blank">
-                            <h3>{__('pages.home.banner.title')}</h3>
-                                <h3 style={{ 'marginTop': 0 }}>
+                                <h3>{__('pages.home.banner.title')}</h3>
+                                <h3 style={{ marginTop: '0' }}>
                                     {__('pages.home.banner.title2')}
+                                    <a
+                                        className="icto-link"
+                                        href="https://www.icto.finnexus.io/"
+                                        target="_blank"
+                                    >
+                                        {__('pages.home.banner.title3')}
+                                    </a>
                                 </h3>
-                            </a>                                
-                                <p
-                                    style={{
-                                        'textAlign': 'left',
-                                        'marginLeft': '20px'
-                                    }}
-                                >
-                                    {__('pages.home.banner.by')}
-                                </p>
+                                <p>{__('pages.home.banner.by')}</p>
                             </div>
                         </Center>
                     </section>
