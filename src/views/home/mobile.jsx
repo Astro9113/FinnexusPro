@@ -142,6 +142,7 @@ class HomeMobile extends React.Component {
                                         className="icto-link"
                                         href="https://www.fnx.finnexus.io/"
                                         target="_blank"
+                                        rel="noopener noreferrer"
                                     >
                                         {__('pages.home.banner.title3')}
                                     </a>
