@@ -272,7 +272,10 @@ class HomePc extends React.Component {
                                 {__('pages.home.operationsTeam.list').map(
                                     (item, index) => {
                                         return (
-                                            <li key={index}>
+                                            <li
+                                                key={index}
+                                                style={{ width: '18%' }}
+                                            >
                                                 <span className="avatar">
                                                     <img
                                                         src={require('@assets/images/' +
