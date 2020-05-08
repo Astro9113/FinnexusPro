@@ -65,7 +65,7 @@ class HomePc extends React.Component {
                                     {__('pages.home.banner.title2')}
                                     <a
                                         className="icto-link"
-                                        href="https://www.icto.finnexus.io/"
+                                        href="https://www.fnx.finnexus.io/"
                                         target="_blank"
                                     >
                                         {__('pages.home.banner.title3')}
