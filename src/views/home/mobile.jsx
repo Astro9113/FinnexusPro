@@ -42,7 +42,7 @@ const partnerLists = [
     ],
     [hillstone, 'https://www.hillstonepe.co/'],
     [bitrue, 'https://www.bitrue.com/'],
-    [uangme, 'https://www.uangme.id/'],
+    // [uangme, 'https://www.uangme.id/'],
     [bkex, 'https://www.bkex.com/']
 ];
 
