@@ -61,17 +61,7 @@ class HomePc extends React.Component {
                         <Center className="wrapper">
                             <div className="text">
                                 <h3>{__('pages.home.banner.title')}</h3>
-                                <h3>
-                                    {__('pages.home.banner.title2')}
-                                    <a
-                                        className="icto-link"
-                                        href="https://www.fnx.finnexus.io/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        {__('pages.home.banner.title3')}
-                                    </a>
-                                </h3>
+                                <h3>{__('pages.home.banner.title2')}</h3>
                                 <p>{__('pages.home.banner.by')}</p>
                             </div>
                         </Center>
