@@ -212,7 +212,7 @@ class HomePc extends React.Component {
                     </section>
 
                     {/* Partner DFP */}
-                    <section className="partner-dfp">
+                    <section className="partner-dfp" id="partner">
                         <Center className="wrapper">
                             <div className="title">
                                 <h4
@@ -242,7 +242,7 @@ class HomePc extends React.Component {
                     </section>
 
                     {/* Teams DFP */}
-                    <section className="teams-dfp">
+                    <section className="teams-dfp" id="team">
                         <Center className="wrapper">
                             <div className="title">
                                 <h4

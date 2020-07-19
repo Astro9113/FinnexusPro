@@ -1,69 +1,186 @@
 @import '~vars.less';
 
 .component {
-    .footer {
-        height: 120px;
-        background-color: #251d47;
-        border-bottom: 30px solid #151029;
-        .wrapper {
-            display: flex;
-            .left {
-                display: block;
-                flex: 1;
-                li {
-                    display: inline-block;
-                    margin-top: 26px;
-                    margin-right: 20px;
-                    & > a {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        background-color: #393558;
-                        width: 36px;
-                        height: 36px;
-                        border-radius: 100px;
-                        color: rgba(255, 255, 255, 1);
-                        text-decoration: none;
-                        &:hover {
-                            color: rgba(255, 255, 255, 0.6);
+    @media (min-width: 992px) {
+        .footer {
+            // height: 120px;
+            background-color: #251d47;
+            border-bottom: 30px solid #251d47;
+            .wrapper {
+                background-color: #251d47;
+                border-bottom: 30px solid #251d47;
+                display: flex;
+                .left {
+                    display: block;
+                    flex: 1;
+                    li {
+                        display: inline-block;
+                        margin-top: 26px;
+                        margin-right: 20px;
+                        & > a {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: #393558;
+                            width: 36px;
+                            height: 36px;
+                            border-radius: 100px;
+                            color: rgba(255, 255, 255, 1);
+                            text-decoration: none;
+                            &:hover {
+                                color: rgba(255, 255, 255, 0.6);
+                            }
+                            i {
+                                font-size: 24px;
+                            }
                         }
-                        i {
-                            font-size: 24px;
-                        }
-                    }
 
-                    .wechat-wrap {
-                        position: relative;
-                        &:hover {
-                            .wechat-pop {
+                        .wechat-wrap {
+                            position: relative;
+                            &:hover {
+                                .wechat-pop {
+                                    display: block;
+                                }
+                            }
+                        }
+                        .wechat-pop {
+                            display: none;
+                            width: 120px;
+                            height: 120px;
+                            background: #fff
+                                url('@assets/images/wechat-qrcode.jpeg')
+                                no-repeat;
+                            background-size: 120px 120px;
+                            position: absolute;
+                            top: -130px;
+                            left: -42px;
+                            box-shadow: 0 0 16px rgba(37, 29, 71, 0.5);
+                            &::after {
                                 display: block;
+                                content: '';
+                                width: 0;
+                                height: 0;
+                                border-width: 8px;
+                                border-style: solid;
+                                border-color: #fff transparent transparent
+                                    transparent;
+                                position: absolute;
+                                left: 50%;
+                                bottom: -14px;
+                                margin-left: -8px;
                             }
                         }
                     }
-                    .wechat-pop {
-                        display: none;
-                        width: 120px;
-                        height: 120px;
-                        background: #fff
-                            url('@assets/images/wechat-qrcode.jpeg') no-repeat;
-                        background-size: 120px 120px;
-                        position: absolute;
-                        top: -130px;
-                        left: -42px;
-                        box-shadow: 0 0 16px rgba(37, 29, 71, 0.5);
-                        &::after {
-                            display: block;
-                            content: '';
-                            width: 0;
-                            height: 0;
-                            border-width: 8px;
-                            border-style: solid;
-                            border-color: #fff transparent transparent
-                                transparent;
+                }
+
+                .right.subscribe {
+                    padding-top: 26px;
+                    input {
+                        width: 400px;
+                        height: 40px;
+                        text-indent: 20px;
+                        margin-right: 10px;
+                        background-color: #39315b;
+                        border-radius: 20px;
+                        border: none;
+                        outline: none;
+                        font-size: 14px;
+                        color: #fff;
+                        letter-spacing: 1px;
+                        &::placeholder {
+                            color: #fff;
+                        }
+                    }
+                    button {
+                        width: 124px;
+                        height: 40px;
+                        background: linear-gradient(
+                            90deg,
+                            rgba(108, 99, 255, 1) 0%,
+                            rgba(84, 52, 200, 1) 100%
+                        );
+                        border-radius: 20px;
+                        border: none;
+                        outline: none;
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: #fff;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 992px) {
+        .footer {
+            // height: 280px;
+            // background-color: #251d47;
+            // border-bottom: 30px solid #151029;
+            .wrapper {
+                background-color: #251d47;
+                border-bottom: 30px solid #251d47;
+                display: block;
+                .left {
+                    display: block;
+                    flex: 1;
+                    text-align: center;
+                    li {
+                        display: inline-block;
+                        margin-top: 20px;
+                        margin-right: 20px;
+                        & > a {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: #393558;
+                            width: 36px;
+                            height: 36px;
+                            border-radius: 100px;
+                            color: rgba(255, 255, 255, 1);
+                            text-decoration: none;
+                            &:hover {
+                                color: rgba(255, 255, 255, 0.6);
+                            }
+                            i {
+                                font-size: 24px;
+                            }
+                        }
+
+                        .wechat-wrap {
+                            position: relative;
+                            &:hover {
+                                .wechat-pop {
+                                    display: block;
+                                }
+                            }
+                        }
+                        .wechat-pop {
+                            display: none;
+                            width: 120px;
+                            height: 120px;
+                            background: #fff
+                                url('@assets/images/wechat-qrcode.jpeg')
+                                no-repeat;
+                            background-size: 120px 120px;
                             position: absolute;
-                            left: 50%;
-                            bottom: -14px;
-                            margin-left: -8px;
+                            top: -130px;
+                            left: -42px;
+                            box-shadow: 0 0 16px rgba(37, 29, 71, 0.5);
+                            &::after {
+                                display: block;
+                                content: '';
+                                width: 0;
+                                height: 0;
+                                border-width: 8px;
+                                border-style: solid;
+                                border-color: #fff transparent transparent
+                                    transparent;
+                                position: absolute;
+                                left: 50%;
+                                bottom: -14px;
+                                margin-left: -8px;
+                            }
                         }
                     }
                 }
@@ -72,17 +189,18 @@
             .right.subscribe {
                 padding-top: 26px;
                 input {
-                    width: 400px;
+                    width: 338px;
                     height: 40px;
-                    text-indent: 20px;
-                    margin-right: 10px;
                     background-color: #39315b;
-                    border-radius: 20px;
+                    border-radius: 109px;
                     border: none;
                     outline: none;
                     font-size: 14px;
                     color: #fff;
                     letter-spacing: 1px;
+                    text-align: center;
+                    display: block;
+                    margin: 0 auto;
                     &::placeholder {
                         color: #fff;
                     }
@@ -90,11 +208,7 @@
                 button {
                     width: 124px;
                     height: 40px;
-                    background: linear-gradient(
-                        90deg,
-                        rgba(108, 99, 255, 1) 0%,
-                        rgba(84, 52, 200, 1) 100%
-                    );
+                    background: linear-gradient(90deg, #6c63ff, #5434c8);
                     border-radius: 20px;
                     border: none;
                     outline: none;
@@ -102,114 +216,10 @@
                     font-weight: 600;
                     color: #fff;
                     cursor: pointer;
+                    display: block;
+                    margin: 0 auto;
+                    margin-top: 10px;
                 }
-            }
-        }
-    }
-
-    .footer-mobile {
-        height: 280px;
-        background-color: #251d47;
-        border-bottom: 30px solid #151029;
-        .wrapper {
-            display: block;
-            .left {
-                display: block;
-                flex: 1;
-                text-align: center;
-                li {
-                    display: inline-block;
-                    margin-top: 20px;
-                    margin-right: 20px;
-                    & > a {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        background-color: #393558;
-                        width: 36px;
-                        height: 36px;
-                        border-radius: 100px;
-                        color: rgba(255, 255, 255, 1);
-                        text-decoration: none;
-                        &:hover {
-                            color: rgba(255, 255, 255, 0.6);
-                        }
-                        i {
-                            font-size: 24px;
-                        }
-                    }
-
-                    .wechat-wrap {
-                        position: relative;
-                        &:hover {
-                            .wechat-pop {
-                                display: block;
-                            }
-                        }
-                    }
-                    .wechat-pop {
-                        display: none;
-                        width: 120px;
-                        height: 120px;
-                        background: #fff
-                            url('@assets/images/wechat-qrcode.jpeg') no-repeat;
-                        background-size: 120px 120px;
-                        position: absolute;
-                        top: -130px;
-                        left: -42px;
-                        box-shadow: 0 0 16px rgba(37, 29, 71, 0.5);
-                        &::after {
-                            display: block;
-                            content: '';
-                            width: 0;
-                            height: 0;
-                            border-width: 8px;
-                            border-style: solid;
-                            border-color: #fff transparent transparent
-                                transparent;
-                            position: absolute;
-                            left: 50%;
-                            bottom: -14px;
-                            margin-left: -8px;
-                        }
-                    }
-                }
-            }
-        }
-
-        .right.subscribe {
-            padding-top: 26px;
-            input {
-                width: 338px;
-                height: 40px;
-                background-color: #39315b;
-                border-radius: 109px;
-                border: none;
-                outline: none;
-                font-size: 14px;
-                color: #fff;
-                letter-spacing: 1px;
-                text-align: center;
-                display: block;
-                margin: 0 auto;
-                &::placeholder {
-                    color: #fff;
-                }
-            }
-            button {
-                width: 124px;
-                height: 40px;
-                background: linear-gradient(90deg, #6c63ff, #5434c8);
-                border-radius: 20px;
-                border: none;
-                outline: none;
-                font-size: 16px;
-                font-weight: 600;
-                color: #fff;
-                cursor: pointer;
-                display: block;
-                margin: 0 auto;
-                margin-top: 10px;
             }
         }
     }

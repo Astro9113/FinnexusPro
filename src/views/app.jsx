@@ -2,7 +2,7 @@ import React from 'react';
 import { extend } from 'koot';
 import classNames from 'classnames';
 
-import Nav from '@components/nav';
+import NavCom from '@components/nav';
 import Footer from '@components/footer';
 
 // import ReactLoading from 'react-loading';
@@ -29,7 +29,7 @@ const App = extend({
                 }
             ])}
         >
-            <Nav location={location} {...props} />
+            <NavCom location={location} {...props} />
             <Main children={children} />
             <Footer location={location} {...props} />
            

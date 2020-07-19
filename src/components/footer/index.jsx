@@ -12,19 +12,9 @@ import HomeMobile from '@views/home/mobile'
 class Footer extends React.Component {
     constructor(props) {
         super(props)
-        this.state = {
-            isMobile: true,
-        }
-
 
         this.handlerSubscribe = this.handlerSubscribe.bind(this)
 
-    }
-
-    componentDidMount() {
-        this.setState({
-            isMobile: window.isMobile === true ? window.isMobile : false,
-        })
     }
 
     handlerSubscribe() {
@@ -34,11 +24,7 @@ class Footer extends React.Component {
 
     render() {
 
-        const { isMobile } = this.state
-
         const { className } = this.props
-
-        const fooCls = isMobile ? "footer-mobile" : "footer"
 
         const footerClassNames = classNames({
             [className]: true
@@ -47,7 +33,7 @@ class Footer extends React.Component {
         return (
 
             <footer className={footerClassNames}>
-                <section className={fooCls}>
+                <section className="footer">
                     <Center className="wrapper">
                         <ul className="left">
                             <li><a href="https://t.me/FinNexusOfficial" target="_blank" rel="noopener noreferrer"><i className="fa fa-telegram"></i></a></li>
