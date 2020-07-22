@@ -3,7 +3,7 @@ import Center from '@components/center'
 import { extend } from 'koot'
 import classNames from 'classnames'
 
-import HomeMobile from '@views/home/mobile'
+import discord from '@assets/images/discord.png';
 
 @extend({
     styles: require('./index.module.less'),
@@ -41,6 +41,9 @@ class Footer extends React.Component {
                             <li><a href="https://twitter.com/fin_nexus/" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a></li>
                             <li><a href="https://www.facebook.com/FinNexus/" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a></li>
                             <li><a href="https://medium.com/finnexus/" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium"></i></a></li>
+                            <li><a href="https://discord.gg/bCDMHN7" target="_blank" rel="noopener noreferrer">
+                                <i className="fa fa-discord"><img style={{width: "100%",borderRadius: "50%"}} src={discord} /></i>
+                                </a></li>
                             <li><a className="wechat-wrap" rel="noopener noreferrer">
                                 <i className="fa fa-weixin"></i>
                                 <div className="wechat-pop"></div>

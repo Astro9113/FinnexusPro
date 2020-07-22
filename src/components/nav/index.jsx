@@ -74,7 +74,6 @@ class NavCom extends React.Component {
     }
 
 
-
     render() {
         const { className } = this.props
         const { localeId, localeUrl } = this.state
