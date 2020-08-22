@@ -92,11 +92,19 @@ class NavCom extends React.Component {
       <Nav.Link href="/#home">{__('navs.home')}</Nav.Link>
       <Nav.Link  href="/#team">{__('navs.team')}</Nav.Link>
       <Nav.Link href="/#partner">{__('navs.partners')}</Nav.Link>
-      <Nav.Link href="https://options.finnexus.io/" target="_blank">Product</Nav.Link>
       <Nav.Link href="http://insights.finnexus.io/" target="_blank">Insights</Nav.Link>
       <Nav.Link href="https://medium.com/finnexus" target="_blank">Blog</Nav.Link>
       <Nav.Link href="https://www.docs.finnexus.io/" target="_blank">Resources</Nav.Link>
       <Nav.Link href="https://www.fnx.finnexus.io/" target="_blank">FNX</Nav.Link>
+      <NavDropdown title="Product" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="https://liquidity.finnexus.io/" target="_blank">FNX mining</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item href="https://options.finnexus.io/" target="_blank">Options Protocol V0.1</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item href="https://wandora.finnexus.app" target="_blank">Wandora</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item href="https://jackspot.finnexus.app" target="_blank">Jackspot</NavDropdown.Item>
+      </NavDropdown>
       <NavDropdown title={__('navs.whitePaper')} id="collasible-nav-dropdown">
         <NavDropdown.Item href="https://finnexus.github.io/Pdfs/FinNexus_Whitepaper_zh.pdf" target="_blank">{__('navs.whitePaperZh')}</NavDropdown.Item>
         <NavDropdown.Divider />
