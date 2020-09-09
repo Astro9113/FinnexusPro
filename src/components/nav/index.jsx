@@ -99,6 +99,8 @@ class NavCom extends React.Component {
       <NavDropdown title="Product" id="collasible-nav-dropdown">
         <NavDropdown.Item href="https://liquidity.finnexus.io/" target="_blank">FNX mining</NavDropdown.Item>
         <NavDropdown.Divider />
+        <NavDropdown.Item href="https://options-v2-testnet.vercel.app" target="_blank">Options Protocol V1.0 testnet</NavDropdown.Item>
+        <NavDropdown.Divider />
         <NavDropdown.Item href="https://options.finnexus.io/" target="_blank">Options Protocol V0.1</NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="https://wandora.finnexus.app" target="_blank">Wandora</NavDropdown.Item>
